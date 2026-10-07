@@ -1,0 +1,953 @@
+[
+  {
+    "language": "ru",
+    "width": 320,
+    "status": 200,
+    "layout": {
+      "viewport": 320,
+      "scrollWidth": 320,
+      "bodyWidth": 320,
+      "textOverflow": []
+    },
+    "menuOpen": true,
+    "menuClose": true,
+    "menuEscape": true,
+    "menuPricesClose": true,
+    "pricesNavigation": {
+      "hash": "#prices",
+      "top": 84,
+      "headerBottom": 75
+    },
+    "priceTable": {
+      "width": 276,
+      "wrapperClient": 276,
+      "wrapperScroll": 276,
+      "rows": [
+        {
+          "texts": [
+            "Диагностика",
+            "100 zł",
+            "Состав диагностики и условия зачёта её стоимости в ремонт уточните до визита."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        },
+        {
+          "texts": [
+            "Замена масла",
+            "150 zł",
+            "Стоимость работы. Цена масла и фильтров уточняется отдельно."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        },
+        {
+          "texts": [
+            "Нормо-час",
+            "250 zł",
+            "Уточните, для каких работ применяется ставка и как рассчитывается время."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "text": "АДРЕС\nChełmżyńska 5, 04-247 Warszawa",
+      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "hours": "ЧАСЫ РАБОТЫ\nПонедельник–пятница\n09:00–19:00\nСуббота\n09:00–12:00",
+    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+    "images": [
+      {
+        "src": "/assets/car-blueprint.svg",
+        "complete": true,
+        "naturalWidth": 920
+      }
+    ],
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "language": "ru",
+    "width": 390,
+    "status": 200,
+    "layout": {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "bodyWidth": 390,
+      "textOverflow": []
+    },
+    "menuOpen": true,
+    "menuClose": true,
+    "menuEscape": true,
+    "menuPricesClose": true,
+    "pricesNavigation": {
+      "hash": "#prices",
+      "top": 84,
+      "headerBottom": 75
+    },
+    "priceTable": {
+      "width": 346,
+      "wrapperClient": 346,
+      "wrapperScroll": 346,
+      "rows": [
+        {
+          "texts": [
+            "Диагностика",
+            "100 zł",
+            "Состав диагностики и условия зачёта её стоимости в ремонт уточните до визита."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        },
+        {
+          "texts": [
+            "Замена масла",
+            "150 zł",
+            "Стоимость работы. Цена масла и фильтров уточняется отдельно."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        },
+        {
+          "texts": [
+            "Нормо-час",
+            "250 zł",
+            "Уточните, для каких работ применяется ставка и как рассчитывается время."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "text": "АДРЕС\nChełmżyńska 5, 04-247 Warszawa",
+      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "hours": "ЧАСЫ РАБОТЫ\nПонедельник–пятница\n09:00–19:00\nСуббота\n09:00–12:00",
+    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+    "images": [
+      {
+        "src": "/assets/car-blueprint.svg",
+        "complete": true,
+        "naturalWidth": 920
+      }
+    ],
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "language": "ru",
+    "width": 768,
+    "status": 200,
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "bodyWidth": 768,
+      "textOverflow": []
+    },
+    "menuOpen": true,
+    "menuClose": true,
+    "menuEscape": true,
+    "menuPricesClose": true,
+    "pricesNavigation": {
+      "hash": "#prices",
+      "top": 104,
+      "headerBottom": 79
+    },
+    "priceTable": {
+      "width": 712,
+      "wrapperClient": 712,
+      "wrapperScroll": 712,
+      "rows": [
+        {
+          "texts": [
+            "Диагностика",
+            "100 zł",
+            "Состав диагностики и условия зачёта её стоимости в ремонт уточните до визита."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        },
+        {
+          "texts": [
+            "Замена масла",
+            "150 zł",
+            "Стоимость работы. Цена масла и фильтров уточняется отдельно."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        },
+        {
+          "texts": [
+            "Нормо-час",
+            "250 zł",
+            "Уточните, для каких работ применяется ставка и как рассчитывается время."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "text": "АДРЕС\nChełmżyńska 5, 04-247 Warszawa",
+      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "hours": "ЧАСЫ РАБОТЫ\nПонедельник–пятница\n09:00–19:00\nСуббота\n09:00–12:00",
+    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+    "images": [
+      {
+        "src": "/assets/car-blueprint.svg",
+        "complete": true,
+        "naturalWidth": 920
+      }
+    ],
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "language": "ru",
+    "width": 1440,
+    "status": 200,
+    "layout": {
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "bodyWidth": 1440,
+      "textOverflow": []
+    },
+    "desktopPricesNav": true,
+    "pricesNavigation": {
+      "hash": "#prices",
+      "top": 104,
+      "headerBottom": 95
+    },
+    "priceTable": {
+      "width": 1168,
+      "wrapperClient": 1168,
+      "wrapperScroll": 1168,
+      "rows": [
+        {
+          "texts": [
+            "Диагностика",
+            "100 zł",
+            "Состав диагностики и условия зачёта её стоимости в ремонт уточните до визита."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        },
+        {
+          "texts": [
+            "Замена масла",
+            "150 zł",
+            "Стоимость работы. Цена масла и фильтров уточняется отдельно."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        },
+        {
+          "texts": [
+            "Нормо-час",
+            "250 zł",
+            "Уточните, для каких работ применяется ставка и как рассчитывается время."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "text": "АДРЕС\nChełmżyńska 5, 04-247 Warszawa",
+      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "hours": "ЧАСЫ РАБОТЫ\nПонедельник–пятница\n09:00–19:00\nСуббота\n09:00–12:00",
+    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+    "images": [
+      {
+        "src": "/assets/car-blueprint.svg",
+        "complete": true,
+        "naturalWidth": 920
+      }
+    ],
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "language": "ua",
+    "width": 320,
+    "status": 200,
+    "layout": {
+      "viewport": 320,
+      "scrollWidth": 320,
+      "bodyWidth": 320,
+      "textOverflow": []
+    },
+    "menuOpen": true,
+    "menuClose": true,
+    "menuEscape": true,
+    "menuPricesClose": true,
+    "pricesNavigation": {
+      "hash": "#prices",
+      "top": 84,
+      "headerBottom": 75
+    },
+    "priceTable": {
+      "width": 276,
+      "wrapperClient": 276,
+      "wrapperScroll": 276,
+      "rows": [
+        {
+          "texts": [
+            "Діагностика",
+            "100 zł",
+            "Склад діагностики та умови зарахування її вартості в ремонт уточніть до візиту."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        },
+        {
+          "texts": [
+            "Заміна мастила",
+            "150 zł",
+            "Вартість роботи. Ціна мастила й фільтрів уточнюється окремо."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        },
+        {
+          "texts": [
+            "Нормо-година",
+            "250 zł",
+            "Уточніть, для яких робіт застосовується ставка та як розраховується час."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "text": "АДРЕСА\nChełmżyńska 5, 04-247 Warszawa",
+      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "hours": "ГОДИНИ РОБОТИ\nПонеділок–п’ятниця\n09:00–19:00\nСубота\n09:00–12:00",
+    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+    "images": [
+      {
+        "src": "/assets/car-blueprint.svg",
+        "complete": true,
+        "naturalWidth": 920
+      }
+    ],
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "language": "ua",
+    "width": 390,
+    "status": 200,
+    "layout": {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "bodyWidth": 390,
+      "textOverflow": []
+    },
+    "menuOpen": true,
+    "menuClose": true,
+    "menuEscape": true,
+    "menuPricesClose": true,
+    "pricesNavigation": {
+      "hash": "#prices",
+      "top": 84,
+      "headerBottom": 75
+    },
+    "priceTable": {
+      "width": 346,
+      "wrapperClient": 346,
+      "wrapperScroll": 346,
+      "rows": [
+        {
+          "texts": [
+            "Діагностика",
+            "100 zł",
+            "Склад діагностики та умови зарахування її вартості в ремонт уточніть до візиту."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        },
+        {
+          "texts": [
+            "Заміна мастила",
+            "150 zł",
+            "Вартість роботи. Ціна мастила й фільтрів уточнюється окремо."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        },
+        {
+          "texts": [
+            "Нормо-година",
+            "250 zł",
+            "Уточніть, для яких робіт застосовується ставка та як розраховується час."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "text": "АДРЕСА\nChełmżyńska 5, 04-247 Warszawa",
+      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "hours": "ГОДИНИ РОБОТИ\nПонеділок–п’ятниця\n09:00–19:00\nСубота\n09:00–12:00",
+    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+    "images": [
+      {
+        "src": "/assets/car-blueprint.svg",
+        "complete": true,
+        "naturalWidth": 920
+      }
+    ],
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "language": "ua",
+    "width": 768,
+    "status": 200,
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "bodyWidth": 768,
+      "textOverflow": []
+    },
+    "menuOpen": true,
+    "menuClose": true,
+    "menuEscape": true,
+    "menuPricesClose": true,
+    "pricesNavigation": {
+      "hash": "#prices",
+      "top": 104,
+      "headerBottom": 79
+    },
+    "priceTable": {
+      "width": 712,
+      "wrapperClient": 712,
+      "wrapperScroll": 712,
+      "rows": [
+        {
+          "texts": [
+            "Діагностика",
+            "100 zł",
+            "Склад діагностики та умови зарахування її вартості в ремонт уточніть до візиту."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        },
+        {
+          "texts": [
+            "Заміна мастила",
+            "150 zł",
+            "Вартість роботи. Ціна мастила й фільтрів уточнюється окремо."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        },
+        {
+          "texts": [
+            "Нормо-година",
+            "250 zł",
+            "Уточніть, для яких робіт застосовується ставка та як розраховується час."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "text": "АДРЕСА\nChełmżyńska 5, 04-247 Warszawa",
+      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "hours": "ГОДИНИ РОБОТИ\nПонеділок–п’ятниця\n09:00–19:00\nСубота\n09:00–12:00",
+    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+    "images": [
+      {
+        "src": "/assets/car-blueprint.svg",
+        "complete": true,
+        "naturalWidth": 920
+      }
+    ],
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "language": "ua",
+    "width": 1440,
+    "status": 200,
+    "layout": {
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "bodyWidth": 1440,
+      "textOverflow": []
+    },
+    "desktopPricesNav": true,
+    "pricesNavigation": {
+      "hash": "#prices",
+      "top": 104,
+      "headerBottom": 95
+    },
+    "priceTable": {
+      "width": 1168,
+      "wrapperClient": 1168,
+      "wrapperScroll": 1168,
+      "rows": [
+        {
+          "texts": [
+            "Діагностика",
+            "100 zł",
+            "Склад діагностики та умови зарахування її вартості в ремонт уточніть до візиту."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        },
+        {
+          "texts": [
+            "Заміна мастила",
+            "150 zł",
+            "Вартість роботи. Ціна мастила й фільтрів уточнюється окремо."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        },
+        {
+          "texts": [
+            "Нормо-година",
+            "250 zł",
+            "Уточніть, для яких робіт застосовується ставка та як розраховується час."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "text": "АДРЕСА\nChełmżyńska 5, 04-247 Warszawa",
+      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "hours": "ГОДИНИ РОБОТИ\nПонеділок–п’ятниця\n09:00–19:00\nСубота\n09:00–12:00",
+    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+    "images": [
+      {
+        "src": "/assets/car-blueprint.svg",
+        "complete": true,
+        "naturalWidth": 920
+      }
+    ],
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "language": "pl",
+    "width": 320,
+    "status": 200,
+    "layout": {
+      "viewport": 320,
+      "scrollWidth": 320,
+      "bodyWidth": 320,
+      "textOverflow": []
+    },
+    "menuOpen": true,
+    "menuClose": true,
+    "menuEscape": true,
+    "menuPricesClose": true,
+    "pricesNavigation": {
+      "hash": "#prices",
+      "top": 84,
+      "headerBottom": 75
+    },
+    "priceTable": {
+      "width": 276,
+      "wrapperClient": 276,
+      "wrapperScroll": 276,
+      "rows": [
+        {
+          "texts": [
+            "Diagnostyka",
+            "100 zł",
+            "Przed wizytą zapytaj o zakres diagnostyki i warunki zaliczenia jej kosztu na poczet naprawy."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        },
+        {
+          "texts": [
+            "Wymiana oleju",
+            "150 zł",
+            "Cena robocizny. O koszt oleju i filtrów zapytaj osobno."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        },
+        {
+          "texts": [
+            "Roboczogodzina",
+            "250 zł",
+            "Zapytaj, do jakich prac odnosi się stawka i jak obliczany jest czas pracy."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "text": "ADRES\nChełmżyńska 5, 04-247 Warszawa",
+      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "hours": "GODZINY OTWARCIA\nPoniedziałek–piątek\n09:00–19:00\nSobota\n09:00–12:00",
+    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+    "images": [
+      {
+        "src": "/assets/car-blueprint.svg",
+        "complete": true,
+        "naturalWidth": 920
+      }
+    ],
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "language": "pl",
+    "width": 390,
+    "status": 200,
+    "layout": {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "bodyWidth": 390,
+      "textOverflow": []
+    },
+    "menuOpen": true,
+    "menuClose": true,
+    "menuEscape": true,
+    "menuPricesClose": true,
+    "pricesNavigation": {
+      "hash": "#prices",
+      "top": 84,
+      "headerBottom": 75
+    },
+    "priceTable": {
+      "width": 346,
+      "wrapperClient": 346,
+      "wrapperScroll": 346,
+      "rows": [
+        {
+          "texts": [
+            "Diagnostyka",
+            "100 zł",
+            "Przed wizytą zapytaj o zakres diagnostyki i warunki zaliczenia jej kosztu na poczet naprawy."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        },
+        {
+          "texts": [
+            "Wymiana oleju",
+            "150 zł",
+            "Cena robocizny. O koszt oleju i filtrów zapytaj osobno."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        },
+        {
+          "texts": [
+            "Roboczogodzina",
+            "250 zł",
+            "Zapytaj, do jakich prac odnosi się stawka i jak obliczany jest czas pracy."
+          ],
+          "fontSizes": [
+            "18px",
+            "22px",
+            "12px"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "text": "ADRES\nChełmżyńska 5, 04-247 Warszawa",
+      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "hours": "GODZINY OTWARCIA\nPoniedziałek–piątek\n09:00–19:00\nSobota\n09:00–12:00",
+    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+    "images": [
+      {
+        "src": "/assets/car-blueprint.svg",
+        "complete": true,
+        "naturalWidth": 920
+      }
+    ],
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "language": "pl",
+    "width": 768,
+    "status": 200,
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "bodyWidth": 768,
+      "textOverflow": []
+    },
+    "menuOpen": true,
+    "menuClose": true,
+    "menuEscape": true,
+    "menuPricesClose": true,
+    "pricesNavigation": {
+      "hash": "#prices",
+      "top": 104,
+      "headerBottom": 79
+    },
+    "priceTable": {
+      "width": 712,
+      "wrapperClient": 712,
+      "wrapperScroll": 712,
+      "rows": [
+        {
+          "texts": [
+            "Diagnostyka",
+            "100 zł",
+            "Przed wizytą zapytaj o zakres diagnostyki i warunki zaliczenia jej kosztu na poczet naprawy."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        },
+        {
+          "texts": [
+            "Wymiana oleju",
+            "150 zł",
+            "Cena robocizny. O koszt oleju i filtrów zapytaj osobno."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        },
+        {
+          "texts": [
+            "Roboczogodzina",
+            "250 zł",
+            "Zapytaj, do jakich prac odnosi się stawka i jak obliczany jest czas pracy."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "text": "ADRES\nChełmżyńska 5, 04-247 Warszawa",
+      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "hours": "GODZINY OTWARCIA\nPoniedziałek–piątek\n09:00–19:00\nSobota\n09:00–12:00",
+    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+    "images": [
+      {
+        "src": "/assets/car-blueprint.svg",
+        "complete": true,
+        "naturalWidth": 920
+      }
+    ],
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "language": "pl",
+    "width": 1440,
+    "status": 200,
+    "layout": {
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "bodyWidth": 1440,
+      "textOverflow": []
+    },
+    "desktopPricesNav": true,
+    "pricesNavigation": {
+      "hash": "#prices",
+      "top": 104,
+      "headerBottom": 95
+    },
+    "priceTable": {
+      "width": 1168,
+      "wrapperClient": 1168,
+      "wrapperScroll": 1168,
+      "rows": [
+        {
+          "texts": [
+            "Diagnostyka",
+            "100 zł",
+            "Przed wizytą zapytaj o zakres diagnostyki i warunki zaliczenia jej kosztu na poczet naprawy."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        },
+        {
+          "texts": [
+            "Wymiana oleju",
+            "150 zł",
+            "Cena robocizny. O koszt oleju i filtrów zapytaj osobno."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        },
+        {
+          "texts": [
+            "Roboczogodzina",
+            "250 zł",
+            "Zapytaj, do jakich prac odnosi się stawka i jak obliczany jest czas pracy."
+          ],
+          "fontSizes": [
+            "18px",
+            "24px",
+            "13px"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "text": "ADRES\nChełmżyńska 5, 04-247 Warszawa",
+      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "hours": "GODZINY OTWARCIA\nPoniedziałek–piątek\n09:00–19:00\nSobota\n09:00–12:00",
+    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
+    "images": [
+      {
+        "src": "/assets/car-blueprint.svg",
+        "complete": true,
+        "naturalWidth": 920
+      }
+    ],
+    "errors": [],
+    "failedRequests": []
+  }
+]

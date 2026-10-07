@@ -1,0 +1,25 @@
+{
+  "name": "Avenor Cars",
+  "url": "https://stowarszawa.com",
+  "telephone": "+48 453 225 773",
+  "address": {
+    "streetAddress": "Chełmżyńska 5",
+    "postalCode": "04-247",
+    "addressLocality": "Warszawa",
+    "addressCountry": "PL"
+  },
+  "openingHoursSpecification": [
+    {
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "19:00"
+    },
+    {
+      "dayOfWeek": ["Saturday"],
+      "opens": "09:00",
+      "closes": "12:00"
+    }
+  ],
+  "data_source": "Address supplied in the user message; phone, services, hours and commercial figures supplied in the user's brief.",
+  "indexing_authorized": true
+}

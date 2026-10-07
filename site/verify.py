@@ -2,12 +2,14 @@
 """Verify generated SEO contracts and actual local HTTP responses."""
 from html.parser import HTMLParser
 from pathlib import Path
+import argparse
 import json
 import tempfile
 from urllib.request import urlopen
 from urllib.error import HTTPError
 import xml.etree.ElementTree as ET
-from build import build, ROUTES, URL
+from urllib.parse import urlsplit, parse_qs
+from build import build, ROUTES, URL, FULL_ADDRESS, ADDRESS, TEL, BUSINESS
 
 class Document(HTMLParser):
     def __init__(self):
@@ -51,7 +53,14 @@ def check_files(path,production):
         assert doc.alternates=={**{code:URL+r for code,r in ROUTES.items()},'x-default':URL+'/'},(route,'hreflang')
         assert doc.metas['description'] and ('<title>' in content),(route,'metadata')
         assert doc.metas['robots']==('index,follow' if production else 'noindex,nofollow')
-        assert json.loads(doc.schema)['@type']=='WebSite'
+        graph=json.loads(doc.schema)['@graph']
+        assert {node['@type'] for node in graph}=={'WebSite','AutoRepair'}
+        repair=next(node for node in graph if node['@type']=='AutoRepair')
+        assert repair['address']=={'@type':'PostalAddress',**ADDRESS}
+        assert repair['telephone']==BUSINESS['telephone']
+        assert 'aggregateRating' not in repair and 'review' not in repair
+        assert len(repair['openingHoursSpecification'])==2
+        assert FULL_ADDRESS in content
         assert '\ufffd' not in content and '????' not in content
         for asset in doc.assets:
             assert (path/asset.lstrip('/')).is_file(),(route,asset)
@@ -61,7 +70,12 @@ def check_files(path,production):
             elif link.startswith('/'):
                 assert (path/link.strip('/')/'index.html').is_file(),(route,link)
             elif link.startswith(('tel:','sms:')):
-                assert link.split(':',1)[1]=='+48453225773'
+                assert link.split(':',1)[1]==TEL
+            elif link.startswith('https://www.google.com/maps/'):
+                parts=urlsplit(link)
+                query=parse_qs(parts.query)
+                assert query['api']==['1']
+                assert query.get('query',query.get('destination'))==[FULL_ADDRESS]
             else:raise AssertionError(('Unexpected link',link))
             counts['internal_links']+=1
         counts['pages']+=1
@@ -72,16 +86,19 @@ def check_files(path,production):
     assert ('Disallow: /' in robots)==(not production)
     return counts
 
-def check_http():
+def check_http(base_url, production):
     for route in ROUTES.values():
-        with urlopen('http://127.0.0.1:8000'+route,timeout=5) as response:
+        with urlopen(base_url+route,timeout=5) as response:
             assert response.status==200
-            assert '<h1>' in response.read().decode('utf-8')
+            content=response.read().decode('utf-8')
+            assert '<h1>' in content and FULL_ADDRESS in content
+            doc=Document();doc.feed(content)
+            assert doc.metas['robots']==('index,follow' if production else 'noindex,nofollow')
     for route in ['/ua','/pl']:
-        with urlopen('http://127.0.0.1:8000'+route,timeout=5) as response:
+        with urlopen(base_url+route,timeout=5) as response:
             assert response.geturl().endswith(route+'/')
     for route in ['/missing-page/','/assets/']:
-        try: urlopen('http://127.0.0.1:8000'+route,timeout=5)
+        try: urlopen(base_url+route,timeout=5)
         except HTTPError as response:
             assert response.code==404
             assert 'Страница не найдена' in response.read().decode('utf-8')
@@ -89,9 +106,13 @@ def check_http():
 
 if __name__=='__main__':
     root=Path(__file__).parent
-    staging=check_files(root/'dist',False)
-    with tempfile.TemporaryDirectory(prefix='avenor-production-',dir='/tmp') as d:
-        build(Path(d),True)
-        production=check_files(Path(d),True)
-    check_http()
-    print(json.dumps({'status':'passed','staging':staging,'production':production,'http':'3 pages, 2 redirects and 2 real 404s verified'},ensure_ascii=False,indent=2))
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--base-url',default='http://127.0.0.1:8000')
+    args=parser.parse_args()
+    current_production=json.loads((root/'dist/build-info.json').read_text())['mode']=='production'
+    current=check_files(root/'dist',current_production)
+    with tempfile.TemporaryDirectory(prefix='avenor-alternate-mode-',dir='/tmp') as d:
+        build(Path(d),not current_production)
+        alternate=check_files(Path(d),not current_production)
+    check_http(args.base_url.rstrip('/'),current_production)
+    print(json.dumps({'status':'passed','current_mode':'production' if current_production else 'staging','current':current,'alternate_mode':alternate,'http':'3 pages, 2 redirects and 2 real 404s verified'},ensure_ascii=False,indent=2))

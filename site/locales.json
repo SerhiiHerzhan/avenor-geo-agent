@@ -2,12 +2,16 @@
   "ru": {
     "lang_label": "Русский",
     "locale": "ru_RU",
-    "title": "СТО Варшава | Автосервис Avenor Cars в Rembertów",
-    "description": "Avenor Cars — автосервис в Варшаве, Rembertów. Диагностика, ТО, подвеска и тормоза. VAG, BMW, Volvo и Ford. Позвоните, чтобы обсудить работы и время визита.",
+    "title": "СТО Варшава | Автосервис Avenor Cars, Chełmżyńska 5",
+    "description": "Avenor Cars — автосервис в Варшаве, Chełmżyńska 5. Диагностика, ТО, подвеска и тормоза. VAG, BMW, Volvo и Ford. Позвоните, чтобы обсудить работы и время визита.",
     "nav": [
       {
         "id": "services",
         "label": "Услуги"
+      },
+      {
+        "id": "prices",
+        "label": "Цены"
       },
       {
         "id": "approach",
@@ -22,13 +26,13 @@
         "label": "Контакты"
       }
     ],
-    "eyebrow": "Варшава · Rembertów",
+    "eyebrow": "Варшава · Chełmżyńska 5",
     "hero_title": "СТО в Варшаве.\nAvenor Cars.",
     "hero_text": "Диагностика, техническое обслуживание, подвеска и тормоза. Расскажите, что беспокоит в автомобиле, и уточните нужные работы по телефону.",
     "call_cta": "Позвонить в сервис",
     "services_cta": "Посмотреть услуги",
-    "location_label": "Район",
-    "location_value": "Warszawa · Rembertów",
+    "location_label": "Адрес",
+    "location_value": "Chełmżyńska 5 · Warszawa",
     "brands_label": "Специализация",
     "brands_value": "VAG · BMW · Volvo · Ford",
     "contact_label": "Связаться с нами",
@@ -79,14 +83,14 @@
       {
         "num": "03",
         "title": "Выберите время",
-        "text": "Уточните доступное время и полный адрес мастерской перед поездкой."
+        "text": "Уточните доступное время и подтвердите запись перед поездкой."
       }
     ],
     "specialist_kicker": "Знакомые марки",
     "specialist_title": "VAG. BMW.\nVolvo. Ford.",
     "specialist_text": "Эти марки составляют основную специализацию Avenor Cars. При обращении укажите модель и двигатель, чтобы уточнить возможность нужных работ.",
     "specialist_points": [
-      "Диагностика по симптомам",
+      "BMW ISTA и Launch",
       "Плановое обслуживание",
       "Работы с подвеской и тормозами"
     ],
@@ -95,7 +99,7 @@
     "faq": [
       {
         "question": "Где находится автосервис?",
-        "answer": "Avenor Cars находится в Варшаве, в районе Rembertów. Позвоните перед поездкой, чтобы уточнить полный адрес и время визита."
+        "answer": "Avenor Cars находится по адресу Chełmżyńska 5, 04-247 Warszawa. Перед поездкой уточните время записи."
       },
       {
         "question": "С какими марками вы работаете?",
@@ -115,22 +119,67 @@
     "contact_text": "Позвоните, чтобы уточнить услугу, стоимость и доступное время. Если удобнее написать, отправьте SMS с данными автомобиля.",
     "phone_label": "Телефон сервиса",
     "sms_cta": "Написать SMS",
-    "location_text": "Варшава, район Rembertów. Уточните полный адрес мастерской перед поездкой.",
-    "footer_text": "Автосервис в Варшаве · Rembertów",
+    "location_text": "Chełmżyńska 5, 04-247 Warszawa. Уточните время записи перед поездкой.",
+    "footer_text": "Автосервис в Варшаве",
     "footer_note": "Услуги, стоимость и время визита уточняйте по телефону.",
     "menu_open": "Открыть меню",
     "menu_close": "Закрыть меню",
-    "skip_link": "Перейти к содержанию"
+    "skip_link": "Перейти к содержанию",
+    "prices_kicker": "Стоимость услуг",
+    "prices_title": "Основные цены.",
+    "prices_intro": "Диагностика, замена масла и ставка нормо-часа. Общая стоимость ремонта зависит от нужных работ и материалов.",
+    "prices_columns": [
+      "Услуга",
+      "Стоимость",
+      "Уточнение"
+    ],
+    "prices": [
+      {
+        "name": "Диагностика",
+        "amount": "100 zł",
+        "note": "Состав диагностики и условия зачёта её стоимости в ремонт уточните до визита."
+      },
+      {
+        "name": "Замена масла",
+        "amount": "150 zł",
+        "note": "Стоимость работы. Цена масла и фильтров уточняется отдельно."
+      },
+      {
+        "name": "Нормо-час",
+        "amount": "250 zł",
+        "note": "Уточните, для каких работ применяется ставка и как рассчитывается время."
+      }
+    ],
+    "prices_note": "При записи уточните стоимость материалов, применимость указанных цен к вашему автомобилю и порядок учёта VAT.",
+    "warranty_title": "Гарантия на работы и запчасти",
+    "warranty_text": "6 месяцев на работы и 12 месяцев на запчасти. Условия и применимость гарантии уточните при согласовании ремонта.",
+    "hours_label": "Часы работы",
+    "hours": [
+      {
+        "days": "Понедельник–пятница",
+        "time": "09:00–19:00"
+      },
+      {
+        "days": "Суббота",
+        "time": "09:00–12:00"
+      }
+    ],
+    "address_label": "Адрес",
+    "route_cta": "Построить маршрут"
   },
   "uk": {
     "lang_label": "Українська",
     "locale": "uk_UA",
-    "title": "СТО Варшава | Автосервіс Avenor Cars у Rembertów",
-    "description": "Avenor Cars — автосервіс у Варшаві, Rembertów. Діагностика, ТО, підвіска та гальма. VAG, BMW, Volvo і Ford. Телефонуйте, щоб обговорити роботи й час візиту.",
+    "title": "СТО у Варшаві | Автосервіс Avenor Cars, Chełmżyńska 5",
+    "description": "Avenor Cars — автосервіс у Варшаві, Chełmżyńska 5. Діагностика, ТО, підвіска та гальма. VAG, BMW, Volvo і Ford. Телефонуйте, щоб обговорити роботи й час візиту.",
     "nav": [
       {
         "id": "services",
         "label": "Послуги"
+      },
+      {
+        "id": "prices",
+        "label": "Ціни"
       },
       {
         "id": "approach",
@@ -145,13 +194,13 @@
         "label": "Контакти"
       }
     ],
-    "eyebrow": "Варшава · Rembertów",
+    "eyebrow": "Варшава · Chełmżyńska 5",
     "hero_title": "СТО у Варшаві.\nAvenor Cars.",
     "hero_text": "Діагностика, технічне обслуговування, підвіска та гальма. Розкажіть, що турбує в автомобілі, та уточніть потрібні роботи телефоном.",
     "call_cta": "Зателефонувати в сервіс",
     "services_cta": "Переглянути послуги",
-    "location_label": "Район",
-    "location_value": "Warszawa · Rembertów",
+    "location_label": "Адреса",
+    "location_value": "Chełmżyńska 5 · Warszawa",
     "brands_label": "Спеціалізація",
     "brands_value": "VAG · BMW · Volvo · Ford",
     "contact_label": "Зв’язатися з нами",
@@ -202,14 +251,14 @@
       {
         "num": "03",
         "title": "Виберіть час",
-        "text": "Уточніть доступний час і повну адресу майстерні перед поїздкою."
+        "text": "Уточніть доступний час і підтвердьте запис перед поїздкою."
       }
     ],
     "specialist_kicker": "Знайомі марки",
     "specialist_title": "VAG. BMW.\nVolvo. Ford.",
     "specialist_text": "Ці марки становлять основну спеціалізацію Avenor Cars. Під час звернення вкажіть модель і двигун, щоб уточнити можливість потрібних робіт.",
     "specialist_points": [
-      "Діагностика за симптомами",
+      "BMW ISTA та Launch",
       "Планове обслуговування",
       "Роботи з підвіскою та гальмами"
     ],
@@ -218,7 +267,7 @@
     "faq": [
       {
         "question": "Де розташований автосервіс?",
-        "answer": "Avenor Cars розташований у Варшаві, у районі Rembertów. Зателефонуйте перед поїздкою, щоб уточнити повну адресу й час візиту."
+        "answer": "Avenor Cars розташований за адресою Chełmżyńska 5, 04-247 Warszawa. Перед поїздкою уточніть час запису."
       },
       {
         "question": "З якими марками ви працюєте?",
@@ -238,22 +287,67 @@
     "contact_text": "Зателефонуйте, щоб уточнити послугу, вартість і доступний час. Якщо зручніше написати, надішліть SMS із даними автомобіля.",
     "phone_label": "Телефон сервісу",
     "sms_cta": "Написати SMS",
-    "location_text": "Варшава, район Rembertów. Уточніть повну адресу майстерні перед поїздкою.",
-    "footer_text": "Автосервіс у Варшаві · Rembertów",
+    "location_text": "Chełmżyńska 5, 04-247 Warszawa. Уточніть час запису перед поїздкою.",
+    "footer_text": "Автосервіс у Варшаві",
     "footer_note": "Послуги, вартість і час візиту уточнюйте телефоном.",
     "menu_open": "Відкрити меню",
     "menu_close": "Закрити меню",
-    "skip_link": "Перейти до вмісту"
+    "skip_link": "Перейти до вмісту",
+    "prices_kicker": "Вартість послуг",
+    "prices_title": "Основні ціни.",
+    "prices_intro": "Діагностика, заміна мастила та ставка нормо-години. Загальна вартість ремонту залежить від потрібних робіт і матеріалів.",
+    "prices_columns": [
+      "Послуга",
+      "Вартість",
+      "Уточнення"
+    ],
+    "prices": [
+      {
+        "name": "Діагностика",
+        "amount": "100 zł",
+        "note": "Склад діагностики та умови зарахування її вартості в ремонт уточніть до візиту."
+      },
+      {
+        "name": "Заміна мастила",
+        "amount": "150 zł",
+        "note": "Вартість роботи. Ціна мастила й фільтрів уточнюється окремо."
+      },
+      {
+        "name": "Нормо-година",
+        "amount": "250 zł",
+        "note": "Уточніть, для яких робіт застосовується ставка та як розраховується час."
+      }
+    ],
+    "prices_note": "Під час запису уточніть вартість матеріалів, застосування зазначених цін до вашого автомобіля та порядок урахування VAT.",
+    "warranty_title": "Гарантія на роботи й запчастини",
+    "warranty_text": "6 місяців на роботи та 12 місяців на запчастини. Умови й застосування гарантії уточніть під час погодження ремонту.",
+    "hours_label": "Години роботи",
+    "hours": [
+      {
+        "days": "Понеділок–п’ятниця",
+        "time": "09:00–19:00"
+      },
+      {
+        "days": "Субота",
+        "time": "09:00–12:00"
+      }
+    ],
+    "address_label": "Адреса",
+    "route_cta": "Прокласти маршрут"
   },
   "pl": {
     "lang_label": "Polski",
     "locale": "pl_PL",
-    "title": "Warsztat samochodowy Warszawa | Avenor Cars Rembertów",
-    "description": "Avenor Cars — warsztat samochodowy w Warszawie, Rembertów. Diagnostyka, serwis, zawieszenie i hamulce. VAG, BMW, Volvo i Ford. Zadzwoń i zapytaj o wizytę.",
+    "title": "Warsztat samochodowy Warszawa | Avenor Cars, Chełmżyńska 5",
+    "description": "Avenor Cars — warsztat samochodowy w Warszawie, Chełmżyńska 5. Diagnostyka, serwis, zawieszenie i hamulce. VAG, BMW, Volvo i Ford. Zadzwoń i zapytaj o wizytę.",
     "nav": [
       {
         "id": "services",
         "label": "Usługi"
+      },
+      {
+        "id": "prices",
+        "label": "Cennik"
       },
       {
         "id": "approach",
@@ -268,13 +362,13 @@
         "label": "Kontakt"
       }
     ],
-    "eyebrow": "Warszawa · Rembertów",
+    "eyebrow": "Warszawa · Chełmżyńska 5",
     "hero_title": "Warsztat samochodowy\nw Warszawie.",
     "hero_text": "Diagnostyka, obsługa serwisowa, zawieszenie i hamulce. Powiedz nam, co dzieje się z samochodem, i zapytaj telefonicznie o potrzebne prace.",
     "call_cta": "Zadzwoń do warsztatu",
     "services_cta": "Zobacz usługi",
-    "location_label": "Dzielnica",
-    "location_value": "Warszawa · Rembertów",
+    "location_label": "Adres",
+    "location_value": "Chełmżyńska 5 · Warszawa",
     "brands_label": "Specjalizacja",
     "brands_value": "VAG · BMW · Volvo · Ford",
     "contact_label": "Skontaktuj się z nami",
@@ -325,14 +419,14 @@
       {
         "num": "03",
         "title": "Wybierz termin",
-        "text": "Zapytaj o dostępny termin i dokładny adres warsztatu przed przyjazdem."
+        "text": "Zapytaj o dostępny termin i potwierdź wizytę przed przyjazdem."
       }
     ],
     "specialist_kicker": "Marki, na których się skupiamy",
     "specialist_title": "VAG. BMW.\nVolvo. Ford.",
     "specialist_text": "Te marki są główną specjalizacją Avenor Cars. Podaj model i wersję silnika, aby zapytać o możliwość wykonania potrzebnych prac.",
     "specialist_points": [
-      "Diagnostyka zgłaszanych objawów",
+      "BMW ISTA i Launch",
       "Okresowa obsługa serwisowa",
       "Prace przy zawieszeniu i hamulcach"
     ],
@@ -341,7 +435,7 @@
     "faq": [
       {
         "question": "Gdzie znajduje się warsztat?",
-        "answer": "Avenor Cars znajduje się w Warszawie, w dzielnicy Rembertów. Przed przyjazdem zadzwoń, aby ustalić dokładny adres i termin wizyty."
+        "answer": "Avenor Cars znajduje się pod adresem Chełmżyńska 5, 04-247 Warszawa. Przed przyjazdem potwierdź termin wizyty."
       },
       {
         "question": "Jakie marki obsługujecie?",
@@ -361,11 +455,52 @@
     "contact_text": "Zadzwoń i zapytaj o usługę, koszt oraz dostępny termin. Jeśli wolisz napisać, wyślij SMS z danymi samochodu.",
     "phone_label": "Telefon do warsztatu",
     "sms_cta": "Wyślij SMS",
-    "location_text": "Warszawa, dzielnica Rembertów. Przed przyjazdem zapytaj o dokładny adres warsztatu.",
-    "footer_text": "Warsztat samochodowy w Warszawie · Rembertów",
+    "location_text": "Chełmżyńska 5, 04-247 Warszawa. Przed przyjazdem potwierdź termin wizyty.",
+    "footer_text": "Warsztat samochodowy w Warszawie",
     "footer_note": "Zapytaj telefonicznie o usługi, koszt i termin wizyty.",
     "menu_open": "Otwórz menu",
     "menu_close": "Zamknij menu",
-    "skip_link": "Przejdź do treści"
+    "skip_link": "Przejdź do treści",
+    "prices_kicker": "Cennik usług",
+    "prices_title": "Podstawowe ceny.",
+    "prices_intro": "Diagnostyka, wymiana oleju i stawka za roboczogodzinę. Całkowity koszt naprawy zależy od potrzebnych prac i materiałów.",
+    "prices_columns": [
+      "Usługa",
+      "Cena",
+      "Dodatkowe informacje"
+    ],
+    "prices": [
+      {
+        "name": "Diagnostyka",
+        "amount": "100 zł",
+        "note": "Przed wizytą zapytaj o zakres diagnostyki i warunki zaliczenia jej kosztu na poczet naprawy."
+      },
+      {
+        "name": "Wymiana oleju",
+        "amount": "150 zł",
+        "note": "Cena robocizny. O koszt oleju i filtrów zapytaj osobno."
+      },
+      {
+        "name": "Roboczogodzina",
+        "amount": "250 zł",
+        "note": "Zapytaj, do jakich prac odnosi się stawka i jak obliczany jest czas pracy."
+      }
+    ],
+    "prices_note": "Przy umawianiu wizyty zapytaj o koszt materiałów, zastosowanie podanych cen do Twojego samochodu i sposób uwzględnienia VAT.",
+    "warranty_title": "Gwarancja na prace i części",
+    "warranty_text": "6 miesięcy na prace i 12 miesięcy na części. Warunki i zakres zastosowania gwarancji ustal przy uzgadnianiu naprawy.",
+    "hours_label": "Godziny otwarcia",
+    "hours": [
+      {
+        "days": "Poniedziałek–piątek",
+        "time": "09:00–19:00"
+      },
+      {
+        "days": "Sobota",
+        "time": "09:00–12:00"
+      }
+    ],
+    "address_label": "Adres",
+    "route_cta": "Wyznacz trasę"
   }
 }

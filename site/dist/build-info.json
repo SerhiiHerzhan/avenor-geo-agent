@@ -1,10 +1,10 @@
 {
-  "mode": "staging",
+  "mode": "production",
   "routes": [
     "/",
     "/ua/",
     "/pl/"
   ],
-  "source": "Avenor Cars draft brief",
-  "unverified_business_facts": true
+  "business_data_source": "Address supplied in the user message; phone, services, hours and commercial figures supplied in the user's brief.",
+  "indexing_authorized_by_owner": true
 }

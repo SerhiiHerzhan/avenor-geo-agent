@@ -5,6 +5,7 @@ from html import escape
 import argparse
 import json
 import shutil
+from urllib.parse import urlencode
 
 def write_text(path, content):
     """Standalone UTF-8 writer; the exported project needs only Python."""
@@ -17,9 +18,14 @@ def write_json(path, payload):
     write_text(path, json.dumps(payload, ensure_ascii=False, indent=2)+'\n')
 
 ROOT = Path(__file__).resolve().parent
-URL = 'https://stowarszawa.com'
-PHONE = '+48 453 225 773'
-TEL = '+48453225773'
+BUSINESS = json.loads((ROOT/'business.json').read_text(encoding='utf-8'))
+URL = BUSINESS['url']
+PHONE = BUSINESS['telephone']
+TEL = PHONE.replace(' ', '')
+ADDRESS = BUSINESS['address']
+FULL_ADDRESS = f"{ADDRESS['streetAddress']}, {ADDRESS['postalCode']} {ADDRESS['addressLocality']}"
+MAPS_URL = 'https://www.google.com/maps/search/?' + urlencode({'api':'1','query':FULL_ADDRESS})
+DIRECTIONS_URL = 'https://www.google.com/maps/dir/?' + urlencode({'api':'1','destination':FULL_ADDRESS})
 ROUTES = {'ru': '/', 'uk': '/ua/', 'pl': '/pl/'}
 
 ICONS = {
@@ -43,10 +49,15 @@ def page(lang, t, production):
     steps = ''.join(f'<li><span>{e(x["num"])}</span><div><h3>{e(x["title"])}</h3><p>{e(x["text"])}</p></div></li>' for x in t['steps'])
     points = ''.join(f'<li>{e(x)}</li>' for x in t['specialist_points'])
     faq = ''.join(f'<details><summary>{e(x["question"])}</summary><p>{e(x["answer"])}</p></details>' for x in t['faq'])
+    price_rows = ''.join(f'<tr><th scope="row">{e(x["name"])}</th><td class="price-amount">{e(x["amount"])}</td><td>{e(x["note"])}</td></tr>' for x in t['prices'])
+    hours = ''.join(f'<div><dt>{e(x["days"])}</dt><dd>{e(x["time"])}</dd></div>' for x in t['hours'])
     hero = '<br>\n'.join(e(x) for x in t['hero_title'].split('\n'))
     robots = 'index,follow' if production else 'noindex,nofollow'
-    # WebSite only: do not fabricate business address, ratings or offers.
-    schema = json.dumps({'@context': 'https://schema.org', '@type': 'WebSite', '@id': URL+'/#website', 'url': URL+'/', 'name': 'Avenor Cars', 'inLanguage': ['ru','uk','pl']},ensure_ascii=False).replace('<','\\u003c')
+    # Owner-supplied business data; no invented ratings, geo coordinates or VAT.
+    schema = json.dumps({'@context':'https://schema.org','@graph':[
+        {'@type':'WebSite','@id':URL+'/#website','url':URL+'/','name':BUSINESS['name'],'inLanguage':['ru','uk','pl'],'publisher':{'@id':URL+'/#business'}},
+        {'@type':'AutoRepair','@id':URL+'/#business','url':URL+'/','name':BUSINESS['name'],'telephone':PHONE,'address':{'@type':'PostalAddress',**ADDRESS},'hasMap':MAPS_URL,'openingHoursSpecification':[{'@type':'OpeningHoursSpecification',**row} for row in BUSINESS['openingHoursSpecification']]}
+    ]},ensure_ascii=False).replace('<','\\u003c')
     return f'''<!doctype html>
 <html lang="{lang}">
 <head>
@@ -82,19 +93,20 @@ def page(lang, t, production):
 <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>{e(t['eyebrow'])}</p>
 <h1>{hero}</h1><p class="hero-description">{e(t['hero_text'])}</p>
 <div class="hero-actions"><a class="button button-yellow" href="tel:{TEL}">{e(t['call_cta'])}<span aria-hidden="true">↗</span></a><a class="text-link" href="#services">{e(t['services_cta'])}<span aria-hidden="true">↓</span></a></div>
-<div class="hero-bottom"><span class="tiny-cross" aria-hidden="true">+</span><span>WARSZAWA · REMBERTÓW</span><span class="hero-line" aria-hidden="true"></span></div>
+<div class="hero-bottom"><span class="tiny-cross" aria-hidden="true">+</span><span>WARSZAWA · CHEŁMŻYŃSKA 5</span><span class="hero-line" aria-hidden="true"></span></div>
 </div><div class="hero-art" aria-hidden="true"><span class="art-coordinate coordinate-top">AVENOR / CARS</span><div class="art-disc"></div><img src="/assets/car-blueprint.svg" alt="" width="920" height="620" fetchpriority="high"><span class="art-coordinate coordinate-bottom">52° N · 21° E <span>WARSAW</span></span></div></div></section>
 <div class="facts-strip"><div class="container facts-grid"><div><span>{e(t['location_label'])}</span><strong>{e(t['location_value'])}</strong></div><div><span>{e(t['brands_label'])}</span><strong>{e(t['brands_value'])}</strong></div><div><span>{e(t['contact_label'])}</span><a href="tel:{TEL}">{PHONE}<span aria-hidden="true">↗</span></a></div></div></div>
 <section id="services" class="section services-section"><div class="container"><div class="section-heading"><div><p class="kicker">01 / {e(t['intro_kicker'])}</p><h2>{e(t['intro_title'])}</h2></div><p class="heading-description">{e(t['intro_text'])}</p></div><div class="services-grid">{cards}</div><p class="price-note"><span aria-hidden="true">↗</span>{e(t['price_note'])}</p></div></section>
+<section id="prices" class="section prices-section"><div class="container"><div class="section-heading"><div><p class="kicker">{e(t['prices_kicker'])}</p><h2>{e(t['prices_title'])}</h2></div><p class="heading-description">{e(t['prices_intro'])}</p></div><div class="price-table-wrap"><table class="price-table"><caption class="visually-hidden">{e(t['prices_title'])}</caption><thead><tr>{''.join(f'<th scope="col">{e(label)}</th>' for label in t['prices_columns'])}</tr></thead><tbody>{price_rows}</tbody></table></div><p class="price-note">{e(t['prices_note'])}</p><div class="warranty-note"><h3>{e(t['warranty_title'])}</h3><p>{e(t['warranty_text'])}</p></div></div></section>
 <section id="approach" class="approach-section"><div class="container approach-grid"><div><p class="kicker">02 / {e(t['approach_kicker'])}</p><h2>{e(t['approach_title'])}</h2><p class="approach-description">{e(t['approach_text'])}</p><a class="button button-dark" href="tel:{TEL}">{e(t['call_cta'])}<span aria-hidden="true">↗</span></a></div><ol class="steps">{steps}</ol></div></section>
 <section class="specialist-section"><div class="container specialist-grid"><div><p class="kicker">03 / {e(t['specialist_kicker'])}</p><h2>{e(t['specialist_title'])}</h2></div><div><p>{e(t['specialist_text'])}</p><ul class="specialist-points">{points}</ul><div class="brand-list" aria-label="{e(t['brands_label'])}"><span>VAG</span><span>BMW</span><span>VOLVO</span><span>FORD</span></div></div></div></section>
 <section id="faq" class="section faq-section"><div class="container faq-grid"><div><p class="kicker">04 / {e(t['faq_kicker'])}</p><h2>{e(t['faq_title'])}</h2></div><div class="faq-list">{faq}</div></div></section>
-<section id="contacts" class="contact-section"><div class="container"><p class="kicker">05 / {e(t['contact_kicker'])}</p><div class="contact-grid"><div><h2>{e(t['contact_title'])}</h2><p>{e(t['contact_text'])}</p></div><div class="contact-details"><span class="phone-label">{e(t['phone_label'])}</span><a class="big-phone" href="tel:{TEL}">{PHONE}<span aria-hidden="true">↗</span></a><div class="contact-actions"><a class="button button-dark" href="tel:{TEL}">{e(t['call_cta'])}<span aria-hidden="true">↗</span></a><a class="sms-link" href="sms:{TEL}">{e(t['sms_cta'])}<span aria-hidden="true">↗</span></a></div><p class="contact-location"><strong>Warszawa, Rembertów</strong><br>{e(t['location_text'])}</p></div></div></div></section>
+<section id="contacts" class="contact-section"><div class="container"><p class="kicker">05 / {e(t['contact_kicker'])}</p><div class="contact-grid"><div><h2>{e(t['contact_title'])}</h2><p>{e(t['contact_text'])}</p><div class="contact-address"><span class="phone-label">{e(t['address_label'])}</span><a href="{e(MAPS_URL)}" target="_blank" rel="noopener noreferrer">{e(FULL_ADDRESS)}</a></div><div class="opening-hours"><span class="phone-label">{e(t['hours_label'])}</span><dl>{hours}</dl></div><a class="sms-link route-link" href="{e(DIRECTIONS_URL)}" target="_blank" rel="noopener noreferrer">{e(t['route_cta'])}<span aria-hidden="true">↗</span></a></div><div class="contact-details"><span class="phone-label">{e(t['phone_label'])}</span><a class="big-phone" href="tel:{TEL}">{PHONE}<span aria-hidden="true">↗</span></a><div class="contact-actions"><a class="button button-dark" href="tel:{TEL}">{e(t['call_cta'])}<span aria-hidden="true">↗</span></a><a class="sms-link" href="sms:{TEL}">{e(t['sms_cta'])}<span aria-hidden="true">↗</span></a></div><p class="contact-location">{e(t['location_text'])}</p></div></div></div></section>
 </main>
 <footer class="site-footer"><div class="container footer-top"><a class="wordmark" href="{route}"><span class="brand-symbol" aria-hidden="true">A<span></span></span><span>AVENOR<span class="wordmark-small">CARS · WARSAW</span></span></a><p>{e(t['footer_text'])}</p><div class="languages">{languages}</div></div><div class="container footer-bottom"><span>© 2026 Avenor Cars</span><span>{e(t['footer_note'])}</span><a href="tel:{TEL}">{PHONE}</a></div></footer>
 </body></html>'''.replace('↗', '<svg class="arrow-icon" aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 16 16 4M4 4h12v12"/></svg>')
 
-def build(destination, production=False):
+def build(destination, production=True):
     data = json.loads((ROOT/'locales.json').read_text(encoding='utf-8'))
     destination.mkdir(parents=True, exist_ok=True)
     shutil.copytree(ROOT/'public', destination, dirs_exist_ok=True)
@@ -110,12 +122,15 @@ def build(destination, production=False):
         alternates+=f'<xhtml:link rel="alternate" hreflang="x-default" href="{URL}/"/>'
         items.append(f'<url><loc>{URL}{path}</loc>{alternates}</url>')
     write_text(destination/'sitemap.xml','<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+''.join(items)+'</urlset>\n' if production else '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>\n')
-    write_json(destination/'build-info.json',{'mode': 'production' if production else 'staging', 'routes': list(ROUTES.values()), 'source': 'Avenor Cars draft brief', 'unverified_business_facts': True})
+    write_json(destination/'build-info.json',{'mode':'production' if production else 'staging','routes':list(ROUTES.values()),'business_data_source':BUSINESS['data_source'],'indexing_authorized_by_owner':BUSINESS['indexing_authorized']})
     print(f'Built {len(ROUTES)} localized pages: {destination} ({"production" if production else "staging"})')
 
 if __name__ == '__main__':
     parser=argparse.ArgumentParser()
-    parser.add_argument('--production',action='store_true',help='Enable indexing. Use only after business facts and domain are confirmed.')
+    modes=parser.add_mutually_exclusive_group()
+    modes.add_argument('--production',dest='production',action='store_true',help='Build the owner-authorized indexable release (default).')
+    modes.add_argument('--staging',dest='production',action='store_false',help='Build a non-indexable development preview.')
+    parser.set_defaults(production=True)
     parser.add_argument('--out',type=Path,default=ROOT/'dist')
     args=parser.parse_args()
     build(args.out.resolve(),args.production)

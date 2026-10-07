@@ -1,46 +1,35 @@
 {
   "date": "2026-10-07",
+  "release": "production",
   "builds": {
-    "staging": "passed",
-    "production_temp": "passed"
+    "production": "passed",
+    "staging_temp": "passed"
   },
   "localized_pages": 3,
-  "browsers": [
-    {
-      "browser": "Chromium",
-      "viewports": [
-        320,
-        390,
-        768,
-        1440
-      ],
-      "languages": [
-        "ru",
-        "uk",
-        "pl"
-      ],
-      "combinations": 12,
-      "horizontal_overflow": false,
-      "page_or_console_errors": false,
-      "failed_requests": false,
-      "menu_and_faq": "passed"
-    }
+  "page_robots": "index,follow",
+  "robots_crawling": "allowed",
+  "sitemap_canonical_urls": 3,
+  "canonical_hreflang": "passed",
+  "structured_data": [
+    "WebSite",
+    "AutoRepair"
   ],
-  "seo_contracts": "passed",
+  "address": "Chełmżyńska 5, 04-247 Warszawa",
+  "address_source": "user_message",
+  "prices_hours_warranty_source": "user_brief_authorized_for_release",
+  "internal_links_checked": 93,
+  "asset_references_checked": 12,
+  "browser_review_file": "production-browser-review.json",
+  "browser_combinations": 12,
+  "horizontal_overflow": false,
+  "page_console_request_errors": false,
+  "menu_faq_prices": "passed",
   "http": {
     "main_routes": 200,
     "slash_redirects": 301,
     "unknown_page": 404,
     "directory_listing": 404
   },
-  "current_dist": "staging_noindex",
-  "published": false,
-  "rankings_measured": false,
-  "missing_owner_facts": [
-    "full_address",
-    "phone_verification",
-    "service_scope",
-    "prices_terms_VAT",
-    "guarantee_terms"
-  ]
+  "published_to_web_host": false,
+  "indexed_by_search_engine": "not_checked"
 }
