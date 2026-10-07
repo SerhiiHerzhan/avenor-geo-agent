@@ -1,0 +1,371 @@
+{
+  "ru": {
+    "lang_label": "Русский",
+    "locale": "ru_RU",
+    "title": "СТО Варшава | Автосервис Avenor Cars в Rembertów",
+    "description": "Avenor Cars — автосервис в Варшаве, Rembertów. Диагностика, ТО, подвеска и тормоза. VAG, BMW, Volvo и Ford. Позвоните, чтобы обсудить работы и время визита.",
+    "nav": [
+      {
+        "id": "services",
+        "label": "Услуги"
+      },
+      {
+        "id": "approach",
+        "label": "Как обратиться"
+      },
+      {
+        "id": "faq",
+        "label": "Вопросы"
+      },
+      {
+        "id": "contacts",
+        "label": "Контакты"
+      }
+    ],
+    "eyebrow": "Варшава · Rembertów",
+    "hero_title": "СТО в Варшаве.\nAvenor Cars.",
+    "hero_text": "Диагностика, техническое обслуживание, подвеска и тормоза. Расскажите, что беспокоит в автомобиле, и уточните нужные работы по телефону.",
+    "call_cta": "Позвонить в сервис",
+    "services_cta": "Посмотреть услуги",
+    "location_label": "Район",
+    "location_value": "Warszawa · Rembertów",
+    "brands_label": "Специализация",
+    "brands_value": "VAG · BMW · Volvo · Ford",
+    "contact_label": "Связаться с нами",
+    "intro_kicker": "Обслуживание автомобиля",
+    "intro_title": "Начните с того,\nчто вас беспокоит.",
+    "intro_text": "Загорелся индикатор, появился стук или подошло время ТО? Перед обращением подготовьте марку, модель, год выпуска и описание проблемы. Это поможет обсудить следующий шаг.",
+    "services": [
+      {
+        "num": "01",
+        "title": "Диагностика",
+        "text": "Ошибки на панели, нестабильная работа или новые звуки — повод проверить автомобиль. Опишите симптомы при обращении.",
+        "icon": "scan"
+      },
+      {
+        "num": "02",
+        "title": "Масло и ТО",
+        "text": "Плановое обслуживание с учётом автомобиля и его пробега. Уточните перечень работ и подходящие расходные материалы.",
+        "icon": "oil"
+      },
+      {
+        "num": "03",
+        "title": "Подвеска",
+        "text": "Стук, вибрация или изменение управляемости требуют проверки. Расскажите, при каких условиях появляется проблема.",
+        "icon": "wheel"
+      },
+      {
+        "num": "04",
+        "title": "Тормоза",
+        "text": "Скрип, вибрация при торможении или износ колодок. Уточните проверку тормозной системы и необходимые работы.",
+        "icon": "brake"
+      }
+    ],
+    "price_note": "Стоимость зависит от автомобиля, работ и материалов. Уточните условия по телефону до визита.",
+    "approach_kicker": "Три простых шага",
+    "approach_title": "Обсудим ваш\nвизит в сервис.",
+    "approach_text": "Позвоните или отправьте SMS. Для первого обращения достаточно данных автомобиля и краткого описания задачи.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Расскажите о проблеме",
+        "text": "Назовите марку, модель, год выпуска и симптомы. Для планового ТО укажите пробег."
+      },
+      {
+        "num": "02",
+        "title": "Уточните работы",
+        "text": "Спросите о нужной услуге, возможном объёме работ и стоимости."
+      },
+      {
+        "num": "03",
+        "title": "Выберите время",
+        "text": "Уточните доступное время и полный адрес мастерской перед поездкой."
+      }
+    ],
+    "specialist_kicker": "Знакомые марки",
+    "specialist_title": "VAG. BMW.\nVolvo. Ford.",
+    "specialist_text": "Эти марки составляют основную специализацию Avenor Cars. При обращении укажите модель и двигатель, чтобы уточнить возможность нужных работ.",
+    "specialist_points": [
+      "Диагностика по симптомам",
+      "Плановое обслуживание",
+      "Работы с подвеской и тормозами"
+    ],
+    "faq_kicker": "Перед визитом",
+    "faq_title": "Частые вопросы.",
+    "faq": [
+      {
+        "question": "Где находится автосервис?",
+        "answer": "Avenor Cars находится в Варшаве, в районе Rembertów. Позвоните перед поездкой, чтобы уточнить полный адрес и время визита."
+      },
+      {
+        "question": "С какими марками вы работаете?",
+        "answer": "Основная специализация — VAG, BMW, Volvo и Ford. Возможность конкретной работы уточните по телефону, назвав модель и двигатель."
+      },
+      {
+        "question": "Как узнать стоимость?",
+        "answer": "Цена зависит от автомобиля, состояния деталей, объёма работ и материалов. Опишите задачу по телефону и уточните, что входит в стоимость."
+      },
+      {
+        "question": "Как обсудить запись?",
+        "answer": "Позвоните или отправьте SMS с маркой, моделью и описанием задачи. Время визита нужно подтвердить в разговоре с сервисом."
+      }
+    ],
+    "contact_kicker": "Avenor Cars · Warszawa",
+    "contact_title": "Что нужно\nвашему автомобилю?",
+    "contact_text": "Позвоните, чтобы уточнить услугу, стоимость и доступное время. Если удобнее написать, отправьте SMS с данными автомобиля.",
+    "phone_label": "Телефон сервиса",
+    "sms_cta": "Написать SMS",
+    "location_text": "Варшава, район Rembertów. Уточните полный адрес мастерской перед поездкой.",
+    "footer_text": "Автосервис в Варшаве · Rembertów",
+    "footer_note": "Услуги, стоимость и время визита уточняйте по телефону.",
+    "menu_open": "Открыть меню",
+    "menu_close": "Закрыть меню",
+    "skip_link": "Перейти к содержанию"
+  },
+  "uk": {
+    "lang_label": "Українська",
+    "locale": "uk_UA",
+    "title": "СТО Варшава | Автосервіс Avenor Cars у Rembertów",
+    "description": "Avenor Cars — автосервіс у Варшаві, Rembertów. Діагностика, ТО, підвіска та гальма. VAG, BMW, Volvo і Ford. Телефонуйте, щоб обговорити роботи й час візиту.",
+    "nav": [
+      {
+        "id": "services",
+        "label": "Послуги"
+      },
+      {
+        "id": "approach",
+        "label": "Як звернутися"
+      },
+      {
+        "id": "faq",
+        "label": "Запитання"
+      },
+      {
+        "id": "contacts",
+        "label": "Контакти"
+      }
+    ],
+    "eyebrow": "Варшава · Rembertów",
+    "hero_title": "СТО у Варшаві.\nAvenor Cars.",
+    "hero_text": "Діагностика, технічне обслуговування, підвіска та гальма. Розкажіть, що турбує в автомобілі, та уточніть потрібні роботи телефоном.",
+    "call_cta": "Зателефонувати в сервіс",
+    "services_cta": "Переглянути послуги",
+    "location_label": "Район",
+    "location_value": "Warszawa · Rembertów",
+    "brands_label": "Спеціалізація",
+    "brands_value": "VAG · BMW · Volvo · Ford",
+    "contact_label": "Зв’язатися з нами",
+    "intro_kicker": "Обслуговування автомобіля",
+    "intro_title": "Почніть із того,\nщо вас турбує.",
+    "intro_text": "Загорівся індикатор, з’явився стукіт або настав час ТО? Перед зверненням підготуйте марку, модель, рік випуску й опис проблеми. Це допоможе обговорити наступний крок.",
+    "services": [
+      {
+        "num": "01",
+        "title": "Діагностика",
+        "text": "Помилки на панелі, нестабільна робота або нові звуки — привід перевірити автомобіль. Опишіть симптоми під час звернення.",
+        "icon": "scan"
+      },
+      {
+        "num": "02",
+        "title": "Мастило й ТО",
+        "text": "Планове обслуговування з урахуванням автомобіля та його пробігу. Уточніть перелік робіт і відповідні витратні матеріали.",
+        "icon": "oil"
+      },
+      {
+        "num": "03",
+        "title": "Підвіска",
+        "text": "Стукіт, вібрація або зміна керованості потребують перевірки. Розкажіть, за яких умов виникає проблема.",
+        "icon": "wheel"
+      },
+      {
+        "num": "04",
+        "title": "Гальма",
+        "text": "Скрип, вібрація під час гальмування або зношення колодок. Уточніть перевірку гальмівної системи й потрібні роботи.",
+        "icon": "brake"
+      }
+    ],
+    "price_note": "Вартість залежить від автомобіля, робіт і матеріалів. Уточніть умови телефоном до візиту.",
+    "approach_kicker": "Три прості кроки",
+    "approach_title": "Обговорімо ваш\nвізит у сервіс.",
+    "approach_text": "Зателефонуйте або надішліть SMS. Для першого звернення достатньо даних автомобіля та короткого опису завдання.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Розкажіть про проблему",
+        "text": "Назвіть марку, модель, рік випуску й симптоми. Для планового ТО вкажіть пробіг."
+      },
+      {
+        "num": "02",
+        "title": "Уточніть роботи",
+        "text": "Запитайте про потрібну послугу, можливий обсяг робіт і вартість."
+      },
+      {
+        "num": "03",
+        "title": "Виберіть час",
+        "text": "Уточніть доступний час і повну адресу майстерні перед поїздкою."
+      }
+    ],
+    "specialist_kicker": "Знайомі марки",
+    "specialist_title": "VAG. BMW.\nVolvo. Ford.",
+    "specialist_text": "Ці марки становлять основну спеціалізацію Avenor Cars. Під час звернення вкажіть модель і двигун, щоб уточнити можливість потрібних робіт.",
+    "specialist_points": [
+      "Діагностика за симптомами",
+      "Планове обслуговування",
+      "Роботи з підвіскою та гальмами"
+    ],
+    "faq_kicker": "Перед візитом",
+    "faq_title": "Часті запитання.",
+    "faq": [
+      {
+        "question": "Де розташований автосервіс?",
+        "answer": "Avenor Cars розташований у Варшаві, у районі Rembertów. Зателефонуйте перед поїздкою, щоб уточнити повну адресу й час візиту."
+      },
+      {
+        "question": "З якими марками ви працюєте?",
+        "answer": "Основна спеціалізація — VAG, BMW, Volvo і Ford. Можливість конкретної роботи уточніть телефоном, назвавши модель і двигун."
+      },
+      {
+        "question": "Як дізнатися вартість?",
+        "answer": "Ціна залежить від автомобіля, стану деталей, обсягу робіт і матеріалів. Опишіть завдання телефоном та уточніть, що входить у вартість."
+      },
+      {
+        "question": "Як обговорити запис?",
+        "answer": "Зателефонуйте або надішліть SMS із маркою, моделлю й описом завдання. Час візиту потрібно підтвердити в розмові із сервісом."
+      }
+    ],
+    "contact_kicker": "Avenor Cars · Warszawa",
+    "contact_title": "Що потрібно\nвашому автомобілю?",
+    "contact_text": "Зателефонуйте, щоб уточнити послугу, вартість і доступний час. Якщо зручніше написати, надішліть SMS із даними автомобіля.",
+    "phone_label": "Телефон сервісу",
+    "sms_cta": "Написати SMS",
+    "location_text": "Варшава, район Rembertów. Уточніть повну адресу майстерні перед поїздкою.",
+    "footer_text": "Автосервіс у Варшаві · Rembertów",
+    "footer_note": "Послуги, вартість і час візиту уточнюйте телефоном.",
+    "menu_open": "Відкрити меню",
+    "menu_close": "Закрити меню",
+    "skip_link": "Перейти до вмісту"
+  },
+  "pl": {
+    "lang_label": "Polski",
+    "locale": "pl_PL",
+    "title": "Warsztat samochodowy Warszawa | Avenor Cars Rembertów",
+    "description": "Avenor Cars — warsztat samochodowy w Warszawie, Rembertów. Diagnostyka, serwis, zawieszenie i hamulce. VAG, BMW, Volvo i Ford. Zadzwoń i zapytaj o wizytę.",
+    "nav": [
+      {
+        "id": "services",
+        "label": "Usługi"
+      },
+      {
+        "id": "approach",
+        "label": "Umów wizytę"
+      },
+      {
+        "id": "faq",
+        "label": "Pytania"
+      },
+      {
+        "id": "contacts",
+        "label": "Kontakt"
+      }
+    ],
+    "eyebrow": "Warszawa · Rembertów",
+    "hero_title": "Warsztat samochodowy\nw Warszawie.",
+    "hero_text": "Diagnostyka, obsługa serwisowa, zawieszenie i hamulce. Powiedz nam, co dzieje się z samochodem, i zapytaj telefonicznie o potrzebne prace.",
+    "call_cta": "Zadzwoń do warsztatu",
+    "services_cta": "Zobacz usługi",
+    "location_label": "Dzielnica",
+    "location_value": "Warszawa · Rembertów",
+    "brands_label": "Specjalizacja",
+    "brands_value": "VAG · BMW · Volvo · Ford",
+    "contact_label": "Skontaktuj się z nami",
+    "intro_kicker": "Obsługa samochodu",
+    "intro_title": "Zacznij od tego,\nco Cię niepokoi.",
+    "intro_text": "Zapaliła się kontrolka, słychać stukanie lub zbliża się termin serwisu? Przygotuj markę, model, rok produkcji i opis problemu. Te informacje pomogą omówić kolejny krok.",
+    "services": [
+      {
+        "num": "01",
+        "title": "Diagnostyka",
+        "text": "Kontrolki, nierówna praca lub nowe dźwięki to powód, by sprawdzić samochód. Opisz objawy podczas rozmowy.",
+        "icon": "scan"
+      },
+      {
+        "num": "02",
+        "title": "Olej i serwis",
+        "text": "Okresowa obsługa odpowiednia dla samochodu i jego przebiegu. Zapytaj o zakres prac i właściwe materiały eksploatacyjne.",
+        "icon": "oil"
+      },
+      {
+        "num": "03",
+        "title": "Zawieszenie",
+        "text": "Stukanie, drgania lub zmiana prowadzenia wymagają sprawdzenia. Powiedz, w jakich warunkach pojawia się problem.",
+        "icon": "wheel"
+      },
+      {
+        "num": "04",
+        "title": "Hamulce",
+        "text": "Piszczenie, drgania przy hamowaniu lub zużyte klocki. Zapytaj o sprawdzenie układu hamulcowego i potrzebne prace.",
+        "icon": "brake"
+      }
+    ],
+    "price_note": "Koszt zależy od samochodu, zakresu prac i materiałów. Zapytaj o warunki telefonicznie przed wizytą.",
+    "approach_kicker": "Trzy proste kroki",
+    "approach_title": "Porozmawiajmy\no wizycie.",
+    "approach_text": "Zadzwoń lub wyślij SMS. Na początek wystarczą dane samochodu i krótki opis tego, czego potrzebujesz.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Opisz problem",
+        "text": "Podaj markę, model, rok produkcji i objawy. Przy okresowym serwisie podaj również przebieg."
+      },
+      {
+        "num": "02",
+        "title": "Zapytaj o prace",
+        "text": "Ustal, czy wykonujemy potrzebną usługę. Zapytaj o zakres prac i koszt."
+      },
+      {
+        "num": "03",
+        "title": "Wybierz termin",
+        "text": "Zapytaj o dostępny termin i dokładny adres warsztatu przed przyjazdem."
+      }
+    ],
+    "specialist_kicker": "Marki, na których się skupiamy",
+    "specialist_title": "VAG. BMW.\nVolvo. Ford.",
+    "specialist_text": "Te marki są główną specjalizacją Avenor Cars. Podaj model i wersję silnika, aby zapytać o możliwość wykonania potrzebnych prac.",
+    "specialist_points": [
+      "Diagnostyka zgłaszanych objawów",
+      "Okresowa obsługa serwisowa",
+      "Prace przy zawieszeniu i hamulcach"
+    ],
+    "faq_kicker": "Przed wizytą",
+    "faq_title": "Częste pytania.",
+    "faq": [
+      {
+        "question": "Gdzie znajduje się warsztat?",
+        "answer": "Avenor Cars znajduje się w Warszawie, w dzielnicy Rembertów. Przed przyjazdem zadzwoń, aby ustalić dokładny adres i termin wizyty."
+      },
+      {
+        "question": "Jakie marki obsługujecie?",
+        "answer": "Główna specjalizacja to VAG, BMW, Volvo i Ford. Zadzwoń i podaj model oraz wersję silnika, aby zapytać o konkretną usługę."
+      },
+      {
+        "question": "Jak poznać koszt?",
+        "answer": "Cena zależy od samochodu, stanu części, zakresu prac i materiałów. Opisz, czego potrzebujesz, i zapytaj, co obejmuje podana cena."
+      },
+      {
+        "question": "Jak umówić wizytę?",
+        "answer": "Zadzwoń lub wyślij SMS z marką, modelem i opisem problemu. Termin wizyty wymaga potwierdzenia w rozmowie z warsztatem."
+      }
+    ],
+    "contact_kicker": "Avenor Cars · Warszawa",
+    "contact_title": "Czego potrzebuje\nTwój samochód?",
+    "contact_text": "Zadzwoń i zapytaj o usługę, koszt oraz dostępny termin. Jeśli wolisz napisać, wyślij SMS z danymi samochodu.",
+    "phone_label": "Telefon do warsztatu",
+    "sms_cta": "Wyślij SMS",
+    "location_text": "Warszawa, dzielnica Rembertów. Przed przyjazdem zapytaj o dokładny adres warsztatu.",
+    "footer_text": "Warsztat samochodowy w Warszawie · Rembertów",
+    "footer_note": "Zapytaj telefonicznie o usługi, koszt i termin wizyty.",
+    "menu_open": "Otwórz menu",
+    "menu_close": "Zamknij menu",
+    "skip_link": "Przejdź do treści"
+  }
+}

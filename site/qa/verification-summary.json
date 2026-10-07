@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-07",
+  "builds": {
+    "staging": "passed",
+    "production_temp": "passed"
+  },
+  "localized_pages": 3,
+  "browsers": [
+    {
+      "browser": "Chromium",
+      "viewports": [
+        320,
+        390,
+        768,
+        1440
+      ],
+      "languages": [
+        "ru",
+        "uk",
+        "pl"
+      ],
+      "combinations": 12,
+      "horizontal_overflow": false,
+      "page_or_console_errors": false,
+      "failed_requests": false,
+      "menu_and_faq": "passed"
+    }
+  ],
+  "seo_contracts": "passed",
+  "http": {
+    "main_routes": 200,
+    "slash_redirects": 301,
+    "unknown_page": 404,
+    "directory_listing": 404
+  },
+  "current_dist": "staging_noindex",
+  "published": false,
+  "rankings_measured": false,
+  "missing_owner_facts": [
+    "full_address",
+    "phone_verification",
+    "service_scope",
+    "prices_terms_VAT",
+    "guarantee_terms"
+  ]
+}

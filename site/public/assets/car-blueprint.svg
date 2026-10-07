@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="620" viewBox="0 0 920 620" fill="none" role="img" aria-label="Декоративная техническая иллюстрация автомобиля">
+  <defs>
+    <linearGradient id="body" x1="430" y1="235" x2="483" y2="452" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#62666B"/>
+      <stop offset=".35" stop-color="#34383D"/>
+      <stop offset=".76" stop-color="#1A1D21"/>
+      <stop offset="1" stop-color="#303439"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="401" y1="208" x2="431" y2="319" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#777B7F"/>
+      <stop offset="1" stop-color="#292D32"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="428" y1="220" x2="477" y2="319" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#242C32"/>
+      <stop offset="1" stop-color="#101519"/>
+    </linearGradient>
+    <linearGradient id="hood" x1="631" y1="292" x2="783" y2="345" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#51565C"/>
+      <stop offset="1" stop-color="#25292E"/>
+    </linearGradient>
+    <radialGradient id="rim" cx="0" cy="0" r="1" gradientTransform="translate(0 0) scale(45)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#697076"/>
+      <stop offset=".45" stop-color="#3C4248"/>
+      <stop offset="1" stop-color="#14181C"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#859096" stroke-opacity=".075" stroke-width="1"/>
+    </pattern>
+    <g id="wheel">
+      <circle r="62" fill="#0B0E10" stroke="#454C52" stroke-width="2"/>
+      <circle r="54" stroke="#22282D" stroke-width="7"/>
+      <circle r="44" fill="url(#rim)" stroke="#9DA4A9" stroke-opacity=".6" stroke-width="1.2"/>
+      <circle r="36" stroke="#252B30" stroke-width="1.3"/>
+      <g fill="#727A81" stroke="#B4BBC0" stroke-opacity=".35" stroke-width=".8">
+        <path d="M-5-12-11-40 0-43 7-12Z"/>
+        <path d="m9-9 24-18 8 8-26 20Z"/>
+        <path d="m12 5 28 7-4 12-27-8Z"/>
+        <path d="M2 13 6 42-7 42-7 12Z"/>
+        <path d="m-11 7-24 18-7-11 26-16Z"/>
+        <path d="m-12-5-29-9 6-11 26 14Z"/>
+      </g>
+      <circle r="13" fill="#161C20" stroke="#9AA3AB" stroke-width="1"/>
+      <circle r="5" fill="#3A4248"/>
+      <g fill="#AEB5B9">
+        <circle cx="0" cy="-9" r="1.3"/>
+        <circle cx="8" cy="-3" r="1.3"/>
+        <circle cx="5" cy="7" r="1.3"/>
+        <circle cx="-5" cy="7" r="1.3"/>
+        <circle cx="-8" cy="-3" r="1.3"/>
+      </g>
+      <path d="M-38-44A58 58 0 0 1 40-42" stroke="#FFCF27" stroke-opacity=".75" stroke-width="1.4"/>
+    </g>
+  </defs>
+
+  <!-- An open technical field keeps the illustration light on a dark hero. -->
+  <path d="M80 144H850V522H80Z" fill="url(#grid)"/>
+  <g stroke="#6E7B83" stroke-opacity=".2" stroke-width="1">
+    <path d="M58 496H865M109 167V539M851 167V539"/>
+    <path d="M139 130H819M460 111V556" stroke-dasharray="5 9"/>
+    <ellipse cx="463" cy="337" rx="318" ry="166" stroke-dasharray="3 9"/>
+    <path d="M193 540 826 251M84 341 620 98" stroke-opacity=".12"/>
+  </g>
+  <g stroke="#FFD130" stroke-opacity=".55" stroke-width="1.4">
+    <path d="M96 194V176H114M814 176H832V194M96 509V527H114M814 527H832V509"/>
+    <path d="M98 493H122M110 481V505M839 493H863M851 481V505"/>
+  </g>
+  <ellipse cx="471" cy="487" rx="350" ry="20" fill="#000" fill-opacity=".24"/>
+  <path d="M176 496H774" stroke="#ABB5BD" stroke-opacity=".15"/>
+
+  <!-- The two wheels are original generic forms with no brand identifiers. -->
+  <use href="#wheel" transform="translate(225 426)"/>
+  <use href="#wheel" transform="translate(680 429)"/>
+
+  <!-- Main side skin, including real wheel-arch cutouts. -->
+  <path d="M118 349C133 322 163 313 217 306L271 294C318 259 346 225 396 216H508C546 224 587 256 625 286L742 301C781 309 807 330 822 355L829 389C823 408 793 423 744 432C738 393 713 365 680 365C645 365 618 397 615 439L291 436C281 394 259 364 225 364C190 364 164 394 157 430L124 414C110 405 107 377 118 349Z" fill="url(#body)" stroke="#A6AFB5" stroke-opacity=".72" stroke-width="1.7"/>
+  <path d="M271 294C319 257 350 226 396 216H508C545 224 587 256 625 286L607 305 296 315Z" fill="url(#roof)" stroke="#CCD2D6" stroke-opacity=".3"/>
+
+  <!-- Cabin: clean glass, pillars, subtle reflected geometry. -->
+  <path d="M302 297C334 261 362 236 401 229H435L438 301Z" fill="url(#glass)" stroke="#ADB7BE" stroke-opacity=".55" stroke-width="1.2"/>
+  <path d="M446 230H501C533 240 562 260 589 285L583 299 451 301Z" fill="url(#glass)" stroke="#ADB7BE" stroke-opacity=".55" stroke-width="1.2"/>
+  <path d="M513 230C546 239 587 266 615 288L600 302 590 287C564 262 538 243 513 230Z" fill="#515A63" fill-opacity=".66" stroke="#C6D0D6" stroke-opacity=".35"/>
+  <path d="M316 295C345 270 376 250 402 243M459 242H503L566 288" stroke="#667782" stroke-opacity=".24" stroke-width="3"/>
+  <path d="M430 230 433 300M442 231 446 302" stroke="#171D22" stroke-width="3"/>
+  <path d="M301 307 604 308" stroke="#D7DDE1" stroke-opacity=".56" stroke-width="1"/>
+
+  <!-- Hood and the angled, understated front fascia. -->
+  <path d="M625 287 742 302C773 308 794 322 811 341L654 330 606 307Z" fill="url(#hood)" stroke="#B0B9BF" stroke-opacity=".38" stroke-width="1"/>
+  <path d="M650 294 763 315M660 328 797 337" stroke="#A9B3BA" stroke-opacity=".35" stroke-width="1.2"/>
+  <path d="M808 340 822 356 829 389C815 407 791 414 753 421L757 398 792 383Z" fill="#14191D" stroke="#89949C" stroke-opacity=".5"/>
+  <path d="M777 357 817 358 819 369 787 371Z" fill="#0B1013" stroke="#68737C" stroke-width="1"/>
+  <path d="m784 362 29 1" stroke="#FFD130" stroke-width="3" stroke-linecap="round"/>
+  <path d="m782 384 40-6-2 13-40 8Z" fill="#0B1013" stroke="#48545C" stroke-width="1"/>
+  <g stroke="#54616A" stroke-opacity=".55" stroke-width="1">
+    <path d="m787 385-1 9m8-10-1 9m8-10-1 9m8-10-1 9m8-10-1 9"/>
+  </g>
+  <path d="m770 409 45-12" stroke="#8F9AA2" stroke-opacity=".55" stroke-width="1.3"/>
+
+  <!-- Side surfaces, door seams and small practical details. -->
+  <path d="M127 346C209 328 343 325 462 328L624 334 765 349" stroke="#E0E4E7" stroke-opacity=".5" stroke-width="1.25"/>
+  <path d="M289 406C387 421 517 421 618 408" stroke="#11171B" stroke-width="9"/>
+  <path d="M291 432 614 435" stroke="#8B949B" stroke-opacity=".56" stroke-width="1.5"/>
+  <path d="M303 318 300 394C335 406 383 409 435 408L439 318M452 316 450 409C505 408 551 406 590 393L599 315" stroke="#0F151A" stroke-width="1.5"/>
+  <path d="M304 318 303 387M454 320 453 400" stroke="#717E88" stroke-opacity=".35" stroke-width="1"/>
+  <path d="M381 339H408M540 338H565" stroke="#C1CAD0" stroke-opacity=".75" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M380 344H408M539 343H566" stroke="#10161A" stroke-width="2" stroke-linecap="round"/>
+  <path d="m591 303 23-6 18 9-2 13-30-3Z" fill="#252D33" stroke="#ABB5BD" stroke-opacity=".6" stroke-width="1.1"/>
+  <path d="m603 310 24 2" stroke="#EBD04B" stroke-opacity=".8" stroke-width="1"/>
+  <path d="M129 344 158 337 153 350 122 358Z" fill="#21282D" stroke="#86949D" stroke-opacity=".6"/>
+  <path d="m128 348 23-5" stroke="#FFD130" stroke-opacity=".6" stroke-width="2"/>
+  <path d="M125 386 151 394M735 393 763 389" stroke="#67757E" stroke-opacity=".6" stroke-width="1.2"/>
+  <path d="M166 408C174 379 198 359 225 359C252 359 277 381 286 409M621 411C629 381 652 359 680 359C706 359 732 381 739 411" stroke="#FFD130" stroke-opacity=".8" stroke-width="1.4"/>
+
+  <!-- Sparse construction lines: visual rhythm, no labels or fake measurements. -->
+  <g stroke="#FFD130" stroke-width="1" stroke-opacity=".32">
+    <path d="M225 352V172M680 353V193M178 160H268M633 181H723" stroke-dasharray="3 7"/>
+    <path d="M216 160H234M225 151V169M671 181H689M680 172V190"/>
+    <path d="m355 254-41-57h-80m416 94 73-68h69m-351 191 39 117h111"/>
+    <circle cx="355" cy="254" r="3" fill="#FFD130"/>
+    <circle cx="650" cy="291" r="3" fill="#FFD130"/>
+    <circle cx="441" cy="414" r="3" fill="#FFD130"/>
+  </g>
+  <g fill="#A3B0B9" fill-opacity=".28">
+    <circle cx="109" cy="144" r="2"/>
+    <circle cx="851" cy="144" r="2"/>
+    <circle cx="109" cy="540" r="2"/>
+    <circle cx="851" cy="540" r="2"/>
+  </g>
+</svg>

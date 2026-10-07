@@ -1,0 +1,10 @@
+{
+  "mode": "staging",
+  "routes": [
+    "/",
+    "/ua/",
+    "/pl/"
+  ],
+  "source": "Avenor Cars draft brief",
+  "unverified_business_facts": true
+}
