@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-08",
+  "display_label": "Praga-Południe",
+  "spelling": "correct Polish spelling; hyphen and ł retained",
+  "source": "Owner instruction in chat",
+  "geographic_membership_verified": false,
+  "reason": "Restricted egress proxy denied CONNECT to city map, district website and geocoder before content retrieval.",
+  "sources_attempted": [
+    "https://mapa.um.warszawa.pl/",
+    "https://pragapld.um.warszawa.pl/",
+    "https://nominatim.openstreetmap.org/"
+  ],
+  "network_draft_status": "saved; requires user Review/Save and Publish; runtime access not confirmed",
+  "postal_address_changed": false
+}

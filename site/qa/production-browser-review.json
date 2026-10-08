@@ -1,6 +1,6 @@
 {
   "summary": {
-    "base_url": "http://127.0.0.1:8002",
+    "base_url": "http://127.0.0.1:8003",
     "pages": 15,
     "widths": [
       320,
@@ -16,36 +16,12 @@
       "production-mobile.png",
       "service-diagnostics-desktop.png",
       "service-diagnostics-mobile.png",
-      "service-oil-change-pl-mobile.png"
+      "service-oil-change-pl-mobile.png",
+      "workshop-hero-desktop.png",
+      "workshop-hero-mobile.png"
     ],
-    "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
-    "engine": "System Chromium /usr/bin/chromium via Playwright, headless, no-sandbox",
-    "interaction_counts": {
-      "menu_variants": 45,
-      "faq_open_close_cases": 240,
-      "homepage_service_clicks": 96,
-      "language_clicks": 60,
-      "toc_anchor_clicks": 336,
-      "service_hero_link_contrast_min": 15.61,
-      "service_hero_link_contrast_max": 15.61
-    },
-    "visual_review": {
-      "screenshots_reviewed": [
-        "production-desktop.png",
-        "production-mobile.png",
-        "service-diagnostics-desktop.png",
-        "service-diagnostics-mobile.png",
-        "service-oil-change-pl-mobile.png"
-      ],
-      "findings": [],
-      "service_link_contrast": "Computed normal-text contrast passes AA in every service-language-width variant after final CSS update."
-    },
-    "seo_competitor_report_review": {
-      "file": "/workspace/avenor-geo-agent/site/SEO-COMPETITORS.md",
-      "scope": "TITAN-specific claims compared with saved audit evidence only",
-      "result": "matches",
-      "findings": []
-    }
+    "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
+    "engine": "System Chromium /usr/bin/chromium via Playwright, headless, no-sandbox"
   },
   "checks": [
     {
@@ -54,6 +30,8 @@
       "intent": "homepage",
       "width": 320,
       "status": 200,
+      "captured_at_utc": "2026-10-08T09:05:38.487821+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "layout": {
         "viewport": 320,
         "scrollWidth": 320,
@@ -62,11 +40,37 @@
       },
       "images": [
         {
-          "src": "/assets/car-blueprint.svg",
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
           "complete": true,
-          "naturalWidth": 920
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/workshop-hero.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+          "complete": true,
+          "naturalWidth": 320,
+          "naturalHeight": 213,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
         }
       ],
+      "heroBackground": {
+        "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+        "complete": true,
+        "naturalWidth": 320,
+        "fetchPriority": "high",
+        "loading": "auto"
+      },
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -179,6 +183,8 @@
       "intent": "homepage",
       "width": 390,
       "status": 200,
+      "captured_at_utc": "2026-10-08T09:05:38.485929+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "layout": {
         "viewport": 390,
         "scrollWidth": 390,
@@ -187,11 +193,38 @@
       },
       "images": [
         {
-          "src": "/assets/car-blueprint.svg",
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
           "complete": true,
-          "naturalWidth": 920
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/workshop-hero.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+          "complete": true,
+          "naturalWidth": 389,
+          "naturalHeight": 259,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
         }
       ],
+      "heroBackground": {
+        "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+        "complete": true,
+        "naturalWidth": 389,
+        "fetchPriority": "high",
+        "loading": "auto"
+      },
+      "heroScreenshot": "/workspace/avenor-geo-agent/site/qa/workshop-hero-mobile.png",
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -305,6 +338,8 @@
       "intent": "homepage",
       "width": 768,
       "status": 200,
+      "captured_at_utc": "2026-10-08T09:05:38.482467+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "layout": {
         "viewport": 768,
         "scrollWidth": 768,
@@ -313,11 +348,37 @@
       },
       "images": [
         {
-          "src": "/assets/car-blueprint.svg",
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
           "complete": true,
-          "naturalWidth": 920
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/workshop-hero.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+          "complete": true,
+          "naturalWidth": 768,
+          "naturalHeight": 512,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
         }
       ],
+      "heroBackground": {
+        "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+        "complete": true,
+        "naturalWidth": 768,
+        "fetchPriority": "high",
+        "loading": "auto"
+      },
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -430,6 +491,8 @@
       "intent": "homepage",
       "width": 1440,
       "status": 200,
+      "captured_at_utc": "2026-10-08T09:05:38.393743+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "layout": {
         "viewport": 1440,
         "scrollWidth": 1440,
@@ -438,11 +501,38 @@
       },
       "images": [
         {
-          "src": "/assets/car-blueprint.svg",
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
           "complete": true,
-          "naturalWidth": 920
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/workshop-hero.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero.webp",
+          "complete": true,
+          "naturalWidth": 1439,
+          "naturalHeight": 959,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
         }
       ],
+      "heroBackground": {
+        "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero.webp",
+        "complete": true,
+        "naturalWidth": 1439,
+        "fetchPriority": "high",
+        "loading": "auto"
+      },
+      "heroScreenshot": "/workspace/avenor-geo-agent/site/qa/workshop-hero-desktop.png",
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -546,6 +636,8 @@
       "intent": "homepage",
       "width": 320,
       "status": 200,
+      "captured_at_utc": "2026-10-08T09:05:58.200658+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "layout": {
         "viewport": 320,
         "scrollWidth": 320,
@@ -554,11 +646,37 @@
       },
       "images": [
         {
-          "src": "/assets/car-blueprint.svg",
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
           "complete": true,
-          "naturalWidth": 920
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/workshop-hero.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+          "complete": true,
+          "naturalWidth": 320,
+          "naturalHeight": 213,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
         }
       ],
+      "heroBackground": {
+        "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+        "complete": true,
+        "naturalWidth": 320,
+        "fetchPriority": "high",
+        "loading": "auto"
+      },
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -671,6 +789,8 @@
       "intent": "homepage",
       "width": 390,
       "status": 200,
+      "captured_at_utc": "2026-10-08T09:05:58.814639+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "layout": {
         "viewport": 390,
         "scrollWidth": 390,
@@ -679,11 +799,37 @@
       },
       "images": [
         {
-          "src": "/assets/car-blueprint.svg",
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
           "complete": true,
-          "naturalWidth": 920
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/workshop-hero.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+          "complete": true,
+          "naturalWidth": 389,
+          "naturalHeight": 259,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
         }
       ],
+      "heroBackground": {
+        "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+        "complete": true,
+        "naturalWidth": 389,
+        "fetchPriority": "high",
+        "loading": "auto"
+      },
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -796,6 +942,8 @@
       "intent": "homepage",
       "width": 768,
       "status": 200,
+      "captured_at_utc": "2026-10-08T09:05:58.979859+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "layout": {
         "viewport": 768,
         "scrollWidth": 768,
@@ -804,11 +952,37 @@
       },
       "images": [
         {
-          "src": "/assets/car-blueprint.svg",
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
           "complete": true,
-          "naturalWidth": 920
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/workshop-hero.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+          "complete": true,
+          "naturalWidth": 768,
+          "naturalHeight": 512,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
         }
       ],
+      "heroBackground": {
+        "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+        "complete": true,
+        "naturalWidth": 768,
+        "fetchPriority": "high",
+        "loading": "auto"
+      },
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -921,6 +1095,8 @@
       "intent": "homepage",
       "width": 1440,
       "status": 200,
+      "captured_at_utc": "2026-10-08T09:06:00.708044+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "layout": {
         "viewport": 1440,
         "scrollWidth": 1440,
@@ -929,11 +1105,37 @@
       },
       "images": [
         {
-          "src": "/assets/car-blueprint.svg",
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
           "complete": true,
-          "naturalWidth": 920
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/workshop-hero.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero.webp",
+          "complete": true,
+          "naturalWidth": 1439,
+          "naturalHeight": 959,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
         }
       ],
+      "heroBackground": {
+        "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero.webp",
+        "complete": true,
+        "naturalWidth": 1439,
+        "fetchPriority": "high",
+        "loading": "auto"
+      },
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -1036,6 +1238,8 @@
       "intent": "homepage",
       "width": 320,
       "status": 200,
+      "captured_at_utc": "2026-10-08T09:06:07.754128+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "layout": {
         "viewport": 320,
         "scrollWidth": 320,
@@ -1044,11 +1248,37 @@
       },
       "images": [
         {
-          "src": "/assets/car-blueprint.svg",
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
           "complete": true,
-          "naturalWidth": 920
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/workshop-hero.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+          "complete": true,
+          "naturalWidth": 320,
+          "naturalHeight": 213,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
         }
       ],
+      "heroBackground": {
+        "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+        "complete": true,
+        "naturalWidth": 320,
+        "fetchPriority": "high",
+        "loading": "auto"
+      },
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -1161,6 +1391,8 @@
       "intent": "homepage",
       "width": 390,
       "status": 200,
+      "captured_at_utc": "2026-10-08T09:06:07.785311+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "layout": {
         "viewport": 390,
         "scrollWidth": 390,
@@ -1169,11 +1401,37 @@
       },
       "images": [
         {
-          "src": "/assets/car-blueprint.svg",
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
           "complete": true,
-          "naturalWidth": 920
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/workshop-hero.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+          "complete": true,
+          "naturalWidth": 389,
+          "naturalHeight": 259,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
         }
       ],
+      "heroBackground": {
+        "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+        "complete": true,
+        "naturalWidth": 389,
+        "fetchPriority": "high",
+        "loading": "auto"
+      },
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -1286,6 +1544,8 @@
       "intent": "homepage",
       "width": 768,
       "status": 200,
+      "captured_at_utc": "2026-10-08T09:06:08.194052+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "layout": {
         "viewport": 768,
         "scrollWidth": 768,
@@ -1294,11 +1554,37 @@
       },
       "images": [
         {
-          "src": "/assets/car-blueprint.svg",
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
           "complete": true,
-          "naturalWidth": 920
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/workshop-hero.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+          "complete": true,
+          "naturalWidth": 768,
+          "naturalHeight": 512,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
         }
       ],
+      "heroBackground": {
+        "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero-960.webp",
+        "complete": true,
+        "naturalWidth": 768,
+        "fetchPriority": "high",
+        "loading": "auto"
+      },
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -1411,6 +1697,8 @@
       "intent": "homepage",
       "width": 1440,
       "status": 200,
+      "captured_at_utc": "2026-10-08T09:06:09.447361+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "layout": {
         "viewport": 1440,
         "scrollWidth": 1440,
@@ -1419,11 +1707,37 @@
       },
       "images": [
         {
-          "src": "/assets/car-blueprint.svg",
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
           "complete": true,
-          "naturalWidth": 920
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/workshop-hero.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero.webp",
+          "complete": true,
+          "naturalWidth": 1439,
+          "naturalHeight": 959,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
         }
       ],
+      "heroBackground": {
+        "currentSrc": "http://127.0.0.1:8003/assets/workshop-hero.webp",
+        "complete": true,
+        "naturalWidth": 1439,
+        "fetchPriority": "high",
+        "loading": "auto"
+      },
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -1526,8 +1840,8 @@
       "intent": "diagnostics",
       "width": 320,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:34:52.835466+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:16.713393+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -1540,7 +1854,24 @@
         "bodyWidth": 320,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -1574,44 +1905,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -1647,8 +1978,8 @@
       "intent": "diagnostics",
       "width": 390,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:34:52.804270+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:17.473175+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -1661,7 +1992,24 @@
         "bodyWidth": 390,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -1695,44 +2043,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -1769,8 +2117,8 @@
       "intent": "diagnostics",
       "width": 768,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:34:52.800989+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:17.660507+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -1783,7 +2131,24 @@
         "bodyWidth": 768,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -1818,43 +2183,43 @@
         {
           "target": "#symptoms",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#price",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         }
       ],
@@ -1890,8 +2255,8 @@
       "intent": "diagnostics",
       "width": 1440,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:34:52.833449+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:17.925877+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -1904,7 +2269,24 @@
         "bodyWidth": 1440,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -1929,43 +2311,43 @@
         {
           "target": "#symptoms",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#price",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         }
       ],
@@ -2002,8 +2384,8 @@
       "intent": "diagnostics",
       "width": 320,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:34:56.348833+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:21.934540+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -2016,7 +2398,24 @@
         "bodyWidth": 320,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -2050,44 +2449,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -2123,8 +2522,8 @@
       "intent": "diagnostics",
       "width": 390,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:34:57.230364+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:22.689105+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -2137,7 +2536,24 @@
         "bodyWidth": 390,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -2171,44 +2587,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -2244,8 +2660,8 @@
       "intent": "diagnostics",
       "width": 768,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:34:57.684994+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:23.128537+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -2258,7 +2674,24 @@
         "bodyWidth": 768,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -2293,43 +2726,43 @@
         {
           "target": "#symptoms",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#price",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         }
       ],
@@ -2365,8 +2798,8 @@
       "intent": "diagnostics",
       "width": 1440,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:34:58.039682+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:23.344954+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -2379,7 +2812,24 @@
         "bodyWidth": 1440,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -2404,43 +2854,43 @@
         {
           "target": "#symptoms",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#price",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         }
       ],
@@ -2476,8 +2926,8 @@
       "intent": "diagnostics",
       "width": 320,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:00.952771+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:26.305905+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -2490,7 +2940,24 @@
         "bodyWidth": 320,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -2524,44 +2991,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -2597,8 +3064,8 @@
       "intent": "diagnostics",
       "width": 390,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:01.172881+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:26.924336+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -2611,7 +3078,24 @@
         "bodyWidth": 390,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -2645,44 +3129,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -2718,8 +3202,8 @@
       "intent": "diagnostics",
       "width": 768,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:02.207775+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:27.339632+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -2732,7 +3216,24 @@
         "bodyWidth": 768,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -2767,43 +3268,43 @@
         {
           "target": "#symptoms",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#price",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         }
       ],
@@ -2839,8 +3340,8 @@
       "intent": "diagnostics",
       "width": 1440,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:02.579551+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:28.317868+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -2853,7 +3354,24 @@
         "bodyWidth": 1440,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -2878,43 +3396,43 @@
         {
           "target": "#symptoms",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#price",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         }
       ],
@@ -2950,8 +3468,8 @@
       "intent": "oil-change",
       "width": 320,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:05.723679+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:31.232724+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -2964,7 +3482,24 @@
         "bodyWidth": 320,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -2998,44 +3533,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -3071,8 +3606,8 @@
       "intent": "oil-change",
       "width": 390,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:06.186036+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:31.637057+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -3085,7 +3620,24 @@
         "bodyWidth": 390,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -3119,44 +3671,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -3192,8 +3744,8 @@
       "intent": "oil-change",
       "width": 768,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:06.155818+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:32.058583+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -3206,7 +3758,24 @@
         "bodyWidth": 768,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -3241,43 +3810,43 @@
         {
           "target": "#symptoms",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#price",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         }
       ],
@@ -3313,8 +3882,8 @@
       "intent": "oil-change",
       "width": 1440,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:07.270636+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:32.439430+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -3327,7 +3896,24 @@
         "bodyWidth": 1440,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -3352,43 +3938,43 @@
         {
           "target": "#symptoms",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#price",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         }
       ],
@@ -3424,8 +4010,8 @@
       "intent": "oil-change",
       "width": 320,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:10.839257+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:35.695553+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -3438,7 +4024,24 @@
         "bodyWidth": 320,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -3472,44 +4075,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -3545,8 +4148,8 @@
       "intent": "oil-change",
       "width": 390,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:10.822046+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:36.631057+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -3559,7 +4162,24 @@
         "bodyWidth": 390,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -3593,44 +4213,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -3666,8 +4286,8 @@
       "intent": "oil-change",
       "width": 768,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:11.303758+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:36.788578+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -3680,7 +4300,24 @@
         "bodyWidth": 768,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -3715,43 +4352,43 @@
         {
           "target": "#symptoms",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#price",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         }
       ],
@@ -3787,8 +4424,8 @@
       "intent": "oil-change",
       "width": 1440,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:11.476257+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:37.377460+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -3801,7 +4438,24 @@
         "bodyWidth": 1440,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -3826,43 +4480,43 @@
         {
           "target": "#symptoms",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#price",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         }
       ],
@@ -3898,8 +4552,8 @@
       "intent": "oil-change",
       "width": 320,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:14.769418+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:41.625400+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -3912,7 +4566,24 @@
         "bodyWidth": 320,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -3946,44 +4617,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -4019,8 +4690,8 @@
       "intent": "oil-change",
       "width": 390,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:15.513027+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:42.539544+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -4033,7 +4704,24 @@
         "bodyWidth": 390,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -4067,44 +4755,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -4141,8 +4829,8 @@
       "intent": "oil-change",
       "width": 768,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:16.548103+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:42.621797+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -4155,7 +4843,24 @@
         "bodyWidth": 768,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -4190,43 +4895,43 @@
         {
           "target": "#symptoms",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#price",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         }
       ],
@@ -4262,8 +4967,8 @@
       "intent": "oil-change",
       "width": 1440,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:16.685484+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:43.661677+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -4276,7 +4981,24 @@
         "bodyWidth": 1440,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -4301,36 +5023,450 @@
         {
           "target": "#symptoms",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#price",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 219,
+          "headerBottom": 109,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 109,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/suspension/",
+      "language": "ru",
+      "intent": "suspension",
+      "width": 320,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T09:06:47.102046+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/suspension/",
+        "actual": "/ua/suspension/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 217,
+          "headerBottom": 91,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/suspension/",
+      "language": "ru",
+      "intent": "suspension",
+      "width": 390,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T09:06:47.319490+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/suspension/",
+        "actual": "/ua/suspension/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 217,
+          "headerBottom": 91,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/suspension/",
+      "language": "ru",
+      "intent": "suspension",
+      "width": 768,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T09:06:48.903007+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/suspension/",
+        "actual": "/ua/suspension/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 202,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 202,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 202,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 202,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 202,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 202,
           "headerBottom": 95,
           "passed": true
         },
@@ -4371,373 +5507,10 @@
       "path": "/suspension/",
       "language": "ru",
       "intent": "suspension",
-      "width": 320,
-      "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:19.948350+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
-      "heroLinkContrast": {
-        "foreground": "rgb(28, 30, 27)",
-        "background": "rgb(247, 247, 241)",
-        "ratio": 15.61,
-        "passesNormalTextAA": true
-      },
-      "layout": {
-        "viewport": 320,
-        "scrollWidth": 320,
-        "bodyWidth": 320,
-        "textOverflow": []
-      },
-      "images": [],
-      "badLocalTargets": [],
-      "languageIntentPaths": {
-        "actual": [
-          "/suspension/",
-          "/ua/suspension/",
-          "/pl/suspension/"
-        ],
-        "expected": [
-          "/suspension/",
-          "/ua/suspension/",
-          "/pl/suspension/"
-        ],
-        "passed": true
-      },
-      "languageClick": {
-        "target": "/ua/suspension/",
-        "actual": "/ua/suspension/",
-        "passed": true
-      },
-      "menuOpen": true,
-      "menuOpenScrollWidth": 320,
-      "menuClose": true,
-      "menuEscape": true,
-      "menuEscapeFocus": true,
-      "menuLink": {
-        "href": "/#services",
-        "path": "/",
-        "fragment": "services",
-        "closed": true
-      },
-      "tocAnchors": [
-        {
-          "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
-          "passed": true
-        }
-      ],
-      "faq": [
-        {
-          "index": 0,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 1,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 2,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 3,
-          "open": true,
-          "close": true
-        }
-      ],
-      "errors": [],
-      "failedRequests": [],
-      "resourceErrors": []
-    },
-    {
-      "path": "/suspension/",
-      "language": "ru",
-      "intent": "suspension",
-      "width": 390,
-      "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:20.680509+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
-      "heroLinkContrast": {
-        "foreground": "rgb(28, 30, 27)",
-        "background": "rgb(247, 247, 241)",
-        "ratio": 15.61,
-        "passesNormalTextAA": true
-      },
-      "layout": {
-        "viewport": 390,
-        "scrollWidth": 390,
-        "bodyWidth": 390,
-        "textOverflow": []
-      },
-      "images": [],
-      "badLocalTargets": [],
-      "languageIntentPaths": {
-        "actual": [
-          "/suspension/",
-          "/ua/suspension/",
-          "/pl/suspension/"
-        ],
-        "expected": [
-          "/suspension/",
-          "/ua/suspension/",
-          "/pl/suspension/"
-        ],
-        "passed": true
-      },
-      "languageClick": {
-        "target": "/ua/suspension/",
-        "actual": "/ua/suspension/",
-        "passed": true
-      },
-      "menuOpen": true,
-      "menuOpenScrollWidth": 390,
-      "menuClose": true,
-      "menuEscape": true,
-      "menuEscapeFocus": true,
-      "menuLink": {
-        "href": "/#services",
-        "path": "/",
-        "fragment": "services",
-        "closed": true
-      },
-      "tocAnchors": [
-        {
-          "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
-          "passed": true
-        }
-      ],
-      "faq": [
-        {
-          "index": 0,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 1,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 2,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 3,
-          "open": true,
-          "close": true
-        }
-      ],
-      "errors": [],
-      "failedRequests": [],
-      "resourceErrors": []
-    },
-    {
-      "path": "/suspension/",
-      "language": "ru",
-      "intent": "suspension",
-      "width": 768,
-      "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:21.288195+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
-      "heroLinkContrast": {
-        "foreground": "rgb(28, 30, 27)",
-        "background": "rgb(247, 247, 241)",
-        "ratio": 15.61,
-        "passesNormalTextAA": true
-      },
-      "layout": {
-        "viewport": 768,
-        "scrollWidth": 768,
-        "bodyWidth": 768,
-        "textOverflow": []
-      },
-      "images": [],
-      "badLocalTargets": [],
-      "languageIntentPaths": {
-        "actual": [
-          "/suspension/",
-          "/ua/suspension/",
-          "/pl/suspension/"
-        ],
-        "expected": [
-          "/suspension/",
-          "/ua/suspension/",
-          "/pl/suspension/"
-        ],
-        "passed": true
-      },
-      "languageClick": {
-        "target": "/ua/suspension/",
-        "actual": "/ua/suspension/",
-        "passed": true
-      },
-      "menuOpen": true,
-      "menuOpenScrollWidth": 768,
-      "menuClose": true,
-      "menuEscape": true,
-      "menuEscapeFocus": true,
-      "menuLink": {
-        "href": "/#services",
-        "path": "/",
-        "fragment": "services",
-        "closed": true
-      },
-      "tocAnchors": [
-        {
-          "target": "#symptoms",
-          "top": 202,
-          "headerBottom": 79,
-          "passed": true
-        },
-        {
-          "target": "#assessment",
-          "top": 202,
-          "headerBottom": 79,
-          "passed": true
-        },
-        {
-          "target": "#price",
-          "top": 202,
-          "headerBottom": 79,
-          "passed": true
-        },
-        {
-          "target": "#before-visit",
-          "top": 202,
-          "headerBottom": 79,
-          "passed": true
-        },
-        {
-          "target": "#warranty",
-          "top": 202,
-          "headerBottom": 79,
-          "passed": true
-        },
-        {
-          "target": "#service-faq",
-          "top": 202,
-          "headerBottom": 79,
-          "passed": true
-        },
-        {
-          "target": "#booking",
-          "top": 219,
-          "headerBottom": 79,
-          "passed": true
-        }
-      ],
-      "faq": [
-        {
-          "index": 0,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 1,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 2,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 3,
-          "open": true,
-          "close": true
-        }
-      ],
-      "errors": [],
-      "failedRequests": [],
-      "resourceErrors": []
-    },
-    {
-      "path": "/suspension/",
-      "language": "ru",
-      "intent": "suspension",
       "width": 1440,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:21.804737+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:49.223828+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -4750,7 +5523,24 @@
         "bodyWidth": 1440,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -4775,36 +5565,450 @@
         {
           "target": "#symptoms",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#price",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 219,
+          "headerBottom": 109,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 109,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/suspension/",
+      "language": "ua",
+      "intent": "suspension",
+      "width": 320,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T09:06:52.607674+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/suspension/",
+        "actual": "/suspension/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/ua/#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 217,
+          "headerBottom": 91,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/suspension/",
+      "language": "ua",
+      "intent": "suspension",
+      "width": 390,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T09:06:52.617982+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/suspension/",
+        "actual": "/suspension/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/ua/#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 200,
+          "headerBottom": 91,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 217,
+          "headerBottom": 91,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/suspension/",
+      "language": "ua",
+      "intent": "suspension",
+      "width": 768,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T09:06:52.926459+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/suspension/",
+        "actual": "/suspension/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/ua/#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 202,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 202,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 202,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 202,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 202,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 202,
           "headerBottom": 95,
           "passed": true
         },
@@ -4845,373 +6049,10 @@
       "path": "/ua/suspension/",
       "language": "ua",
       "intent": "suspension",
-      "width": 320,
-      "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:24.411209+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
-      "heroLinkContrast": {
-        "foreground": "rgb(28, 30, 27)",
-        "background": "rgb(247, 247, 241)",
-        "ratio": 15.61,
-        "passesNormalTextAA": true
-      },
-      "layout": {
-        "viewport": 320,
-        "scrollWidth": 320,
-        "bodyWidth": 320,
-        "textOverflow": []
-      },
-      "images": [],
-      "badLocalTargets": [],
-      "languageIntentPaths": {
-        "actual": [
-          "/suspension/",
-          "/ua/suspension/",
-          "/pl/suspension/"
-        ],
-        "expected": [
-          "/suspension/",
-          "/ua/suspension/",
-          "/pl/suspension/"
-        ],
-        "passed": true
-      },
-      "languageClick": {
-        "target": "/suspension/",
-        "actual": "/suspension/",
-        "passed": true
-      },
-      "menuOpen": true,
-      "menuOpenScrollWidth": 320,
-      "menuClose": true,
-      "menuEscape": true,
-      "menuEscapeFocus": true,
-      "menuLink": {
-        "href": "/ua/#services",
-        "path": "/ua/",
-        "fragment": "services",
-        "closed": true
-      },
-      "tocAnchors": [
-        {
-          "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
-          "passed": true
-        }
-      ],
-      "faq": [
-        {
-          "index": 0,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 1,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 2,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 3,
-          "open": true,
-          "close": true
-        }
-      ],
-      "errors": [],
-      "failedRequests": [],
-      "resourceErrors": []
-    },
-    {
-      "path": "/ua/suspension/",
-      "language": "ua",
-      "intent": "suspension",
-      "width": 390,
-      "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:25.013662+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
-      "heroLinkContrast": {
-        "foreground": "rgb(28, 30, 27)",
-        "background": "rgb(247, 247, 241)",
-        "ratio": 15.61,
-        "passesNormalTextAA": true
-      },
-      "layout": {
-        "viewport": 390,
-        "scrollWidth": 390,
-        "bodyWidth": 390,
-        "textOverflow": []
-      },
-      "images": [],
-      "badLocalTargets": [],
-      "languageIntentPaths": {
-        "actual": [
-          "/suspension/",
-          "/ua/suspension/",
-          "/pl/suspension/"
-        ],
-        "expected": [
-          "/suspension/",
-          "/ua/suspension/",
-          "/pl/suspension/"
-        ],
-        "passed": true
-      },
-      "languageClick": {
-        "target": "/suspension/",
-        "actual": "/suspension/",
-        "passed": true
-      },
-      "menuOpen": true,
-      "menuOpenScrollWidth": 390,
-      "menuClose": true,
-      "menuEscape": true,
-      "menuEscapeFocus": true,
-      "menuLink": {
-        "href": "/ua/#services",
-        "path": "/ua/",
-        "fragment": "services",
-        "closed": true
-      },
-      "tocAnchors": [
-        {
-          "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
-          "passed": true
-        },
-        {
-          "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
-          "passed": true
-        }
-      ],
-      "faq": [
-        {
-          "index": 0,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 1,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 2,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 3,
-          "open": true,
-          "close": true
-        }
-      ],
-      "errors": [],
-      "failedRequests": [],
-      "resourceErrors": []
-    },
-    {
-      "path": "/ua/suspension/",
-      "language": "ua",
-      "intent": "suspension",
-      "width": 768,
-      "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:25.524974+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
-      "heroLinkContrast": {
-        "foreground": "rgb(28, 30, 27)",
-        "background": "rgb(247, 247, 241)",
-        "ratio": 15.61,
-        "passesNormalTextAA": true
-      },
-      "layout": {
-        "viewport": 768,
-        "scrollWidth": 768,
-        "bodyWidth": 768,
-        "textOverflow": []
-      },
-      "images": [],
-      "badLocalTargets": [],
-      "languageIntentPaths": {
-        "actual": [
-          "/suspension/",
-          "/ua/suspension/",
-          "/pl/suspension/"
-        ],
-        "expected": [
-          "/suspension/",
-          "/ua/suspension/",
-          "/pl/suspension/"
-        ],
-        "passed": true
-      },
-      "languageClick": {
-        "target": "/suspension/",
-        "actual": "/suspension/",
-        "passed": true
-      },
-      "menuOpen": true,
-      "menuOpenScrollWidth": 768,
-      "menuClose": true,
-      "menuEscape": true,
-      "menuEscapeFocus": true,
-      "menuLink": {
-        "href": "/ua/#services",
-        "path": "/ua/",
-        "fragment": "services",
-        "closed": true
-      },
-      "tocAnchors": [
-        {
-          "target": "#symptoms",
-          "top": 202,
-          "headerBottom": 79,
-          "passed": true
-        },
-        {
-          "target": "#assessment",
-          "top": 202,
-          "headerBottom": 79,
-          "passed": true
-        },
-        {
-          "target": "#price",
-          "top": 202,
-          "headerBottom": 79,
-          "passed": true
-        },
-        {
-          "target": "#before-visit",
-          "top": 202,
-          "headerBottom": 79,
-          "passed": true
-        },
-        {
-          "target": "#warranty",
-          "top": 202,
-          "headerBottom": 79,
-          "passed": true
-        },
-        {
-          "target": "#service-faq",
-          "top": 202,
-          "headerBottom": 79,
-          "passed": true
-        },
-        {
-          "target": "#booking",
-          "top": 219,
-          "headerBottom": 79,
-          "passed": true
-        }
-      ],
-      "faq": [
-        {
-          "index": 0,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 1,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 2,
-          "open": true,
-          "close": true
-        },
-        {
-          "index": 3,
-          "open": true,
-          "close": true
-        }
-      ],
-      "errors": [],
-      "failedRequests": [],
-      "resourceErrors": []
-    },
-    {
-      "path": "/ua/suspension/",
-      "language": "ua",
-      "intent": "suspension",
       "width": 1440,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:26.601581+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:54.204646+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -5224,7 +6065,24 @@
         "bodyWidth": 1440,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -5249,43 +6107,43 @@
         {
           "target": "#symptoms",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#price",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         }
       ],
@@ -5321,8 +6179,8 @@
       "intent": "suspension",
       "width": 320,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:29.347277+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:57.010464+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -5335,7 +6193,24 @@
         "bodyWidth": 320,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -5369,44 +6244,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -5442,8 +6317,8 @@
       "intent": "suspension",
       "width": 390,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:29.763054+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:58.259426+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -5456,7 +6331,24 @@
         "bodyWidth": 390,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -5490,44 +6382,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -5563,8 +6455,8 @@
       "intent": "suspension",
       "width": 768,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:30.250923+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:58.981283+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -5577,7 +6469,24 @@
         "bodyWidth": 768,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -5612,43 +6521,43 @@
         {
           "target": "#symptoms",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#price",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         }
       ],
@@ -5684,8 +6593,8 @@
       "intent": "suspension",
       "width": 1440,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:30.942948+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:06:59.493391+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -5698,7 +6607,24 @@
         "bodyWidth": 1440,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -5723,43 +6649,43 @@
         {
           "target": "#symptoms",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#price",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         }
       ],
@@ -5795,8 +6721,8 @@
       "intent": "brakes",
       "width": 320,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:33.459578+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:07:02.929070+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -5809,7 +6735,24 @@
         "bodyWidth": 320,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -5843,44 +6786,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -5916,8 +6859,8 @@
       "intent": "brakes",
       "width": 390,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:33.786508+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:07:03.360990+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -5930,7 +6873,24 @@
         "bodyWidth": 390,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -5964,44 +6924,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -6037,8 +6997,8 @@
       "intent": "brakes",
       "width": 768,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:34.573341+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:07:03.681346+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -6051,7 +7011,24 @@
         "bodyWidth": 768,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -6086,43 +7063,43 @@
         {
           "target": "#symptoms",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#price",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         }
       ],
@@ -6158,8 +7135,8 @@
       "intent": "brakes",
       "width": 1440,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:35.012090+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:07:04.420846+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -6172,7 +7149,24 @@
         "bodyWidth": 1440,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -6197,43 +7191,43 @@
         {
           "target": "#symptoms",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#price",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         }
       ],
@@ -6269,8 +7263,8 @@
       "intent": "brakes",
       "width": 320,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:37.568839+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:07:07.202976+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -6283,7 +7277,24 @@
         "bodyWidth": 320,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -6317,44 +7328,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -6390,8 +7401,8 @@
       "intent": "brakes",
       "width": 390,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:38.260177+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:07:07.839128+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -6404,7 +7415,24 @@
         "bodyWidth": 390,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -6438,44 +7466,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -6511,8 +7539,8 @@
       "intent": "brakes",
       "width": 768,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:38.880804+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:07:08.503193+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -6525,7 +7553,24 @@
         "bodyWidth": 768,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -6560,43 +7605,43 @@
         {
           "target": "#symptoms",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#price",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         }
       ],
@@ -6632,8 +7677,8 @@
       "intent": "brakes",
       "width": 1440,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:39.251374+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:07:08.970022+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -6646,7 +7691,24 @@
         "bodyWidth": 1440,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -6671,43 +7733,43 @@
         {
           "target": "#symptoms",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#price",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         }
       ],
@@ -6743,8 +7805,8 @@
       "intent": "brakes",
       "width": 320,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:42.710459+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:07:11.833677+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -6757,7 +7819,24 @@
         "bodyWidth": 320,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -6791,44 +7870,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -6864,8 +7943,8 @@
       "intent": "brakes",
       "width": 390,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:42.886415+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:07:11.989672+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -6878,7 +7957,24 @@
         "bodyWidth": 390,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -6912,44 +8008,44 @@
       "tocAnchors": [
         {
           "target": "#symptoms",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#assessment",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#price",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#before-visit",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#warranty",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#service-faq",
-          "top": 182,
-          "headerBottom": 75,
+          "top": 200,
+          "headerBottom": 91,
           "passed": true
         },
         {
           "target": "#booking",
-          "top": 199,
-          "headerBottom": 75,
+          "top": 217,
+          "headerBottom": 91,
           "passed": true
         }
       ],
@@ -6985,8 +8081,8 @@
       "intent": "brakes",
       "width": 768,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:43.779269+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:07:12.679265+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -6999,7 +8095,24 @@
         "bodyWidth": 768,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -7034,43 +8147,43 @@
         {
           "target": "#symptoms",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#price",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 202,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 79,
+          "headerBottom": 95,
           "passed": true
         }
       ],
@@ -7106,8 +8219,8 @@
       "intent": "brakes",
       "width": 1440,
       "status": 200,
-      "captured_at_utc": "2026-10-08T08:35:44.456209+00:00",
-      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "captured_at_utc": "2026-10-08T09:07:13.128014+00:00",
+      "stylesheet_sha256": "439278febd6a7a753d17f5d465ec48c2186c29a12f6d5690d06d7f249b2851bb",
       "heroLinkContrast": {
         "foreground": "rgb(28, 30, 27)",
         "background": "rgb(247, 247, 241)",
@@ -7120,7 +8233,24 @@
         "bodyWidth": 1440,
         "textOverflow": []
       },
-      "images": [],
+      "images": [
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "auto"
+        },
+        {
+          "src": "/assets/avenor-logo.webp",
+          "currentSrc": "http://127.0.0.1:8003/assets/avenor-logo.webp",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "loading": "lazy"
+        }
+      ],
       "badLocalTargets": [],
       "languageIntentPaths": {
         "actual": [
@@ -7145,43 +8275,43 @@
         {
           "target": "#symptoms",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#assessment",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#price",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#before-visit",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#warranty",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#service-faq",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         },
         {
           "target": "#booking",
           "top": 219,
-          "headerBottom": 95,
+          "headerBottom": 109,
           "passed": true
         }
       ],

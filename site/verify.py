@@ -39,6 +39,8 @@ class Document(HTMLParser):
             if a.get('rel') in ['icon','stylesheet']: self.assets.append(a.get('href'))
         if tag=='a': self.links.append(a.get('href',''))
         if tag=='img': self.assets.append(a.get('src'))
+        if tag in ('img','source') and a.get('srcset'):
+            self.assets.extend(candidate.strip().split()[0] for candidate in a['srcset'].split(',') if candidate.strip().split()[0] != a.get('src'))
         if tag=='script' and a.get('src'): self.assets.append(a['src'])
         if tag=='script' and a.get('type')=='application/ld+json': self.in_schema=True
     def handle_data(self,data):

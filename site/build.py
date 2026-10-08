@@ -41,7 +41,7 @@ def language_links(lang, routes):
 def schema_graph():
     return [
         {'@type':'WebSite','@id':URL+'/#website','url':URL+'/','name':BUSINESS['name'],'inLanguage':['ru','uk','pl'],'publisher':{'@id':URL+'/#business'}},
-        {'@type':'AutoRepair','@id':URL+'/#business','url':URL+'/','name':BUSINESS['name'],'telephone':PHONE,'address':{'@type':'PostalAddress',**ADDRESS},'hasMap':MAPS_URL,'openingHoursSpecification':[{'@type':'OpeningHoursSpecification',**row} for row in BUSINESS['openingHoursSpecification']]}
+        {'@type':'AutoRepair','@id':URL+'/#business','url':URL+'/','name':BUSINESS['name'],'logo':URL+'/assets/avenor-logo.webp','telephone':PHONE,'address':{'@type':'PostalAddress',**ADDRESS},'hasMap':MAPS_URL,'openingHoursSpecification':[{'@type':'OpeningHoursSpecification',**row} for row in BUSINESS['openingHoursSpecification']]}
     ]
 
 def head(lang, t, production, routes, extra_nodes=None):
@@ -102,17 +102,17 @@ def page(lang, t, production):
 <body>
 <a class="skip-link" href="#main">{e(t['skip_link'])}</a>
 <header class="site-header"><div class="container header-inner">
-<a class="wordmark" href="{route}" aria-label="Avenor Cars"><span class="brand-symbol" aria-hidden="true">A<span></span></span><span>AVENOR<span class="wordmark-small">CARS · WARSAW</span></span></a>
+<a class="wordmark" href="{route}" aria-label="Avenor Cars"><img class="brand-logo" src="/assets/avenor-logo.webp" alt="Avenor Cars" width="480" height="320" decoding="async"></a>
 <nav class="desktop-nav" aria-label="{e(t['menu_open'])}">{nav}</nav>
 <div class="header-right"><div class="languages">{languages}</div><a class="header-phone" href="tel:{TEL}">{PHONE}</a><button type="button" class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="{e(t['menu_open'])}" data-open="{e(t['menu_open'])}" data-close="{e(t['menu_close'])}"><span></span><span></span></button></div>
 </div><nav id="mobile-nav" class="mobile-nav" hidden aria-label="{e(t['menu_open'])}">{nav}<a href="tel:{TEL}">{PHONE}</a></nav></header>
 <main id="main">
-<section class="hero"><div class="container hero-grid"><div class="hero-copy">
+<section class="hero"><picture class="hero-background" aria-hidden="true"><img src="/assets/workshop-hero.webp" srcset="/assets/workshop-hero-960.webp 960w, /assets/workshop-hero.webp 1536w" sizes="100vw" alt="" width="1536" height="1024" fetchpriority="high" decoding="async"></picture><div class="container hero-grid"><div class="hero-copy">
 <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>{e(t['eyebrow'])}</p>
 <h1>{hero}</h1><p class="hero-description">{e(t['hero_text'])}</p>
 <div class="hero-actions"><a class="button button-yellow" href="tel:{TEL}">{e(t['call_cta'])}<span aria-hidden="true">↗</span></a><a class="text-link" href="#services">{e(t['services_cta'])}<span aria-hidden="true">↓</span></a></div>
-<div class="hero-bottom"><span class="tiny-cross" aria-hidden="true">+</span><span>WARSZAWA · CHEŁMŻYŃSKA 5</span><span class="hero-line" aria-hidden="true"></span></div>
-</div><div class="hero-art" aria-hidden="true"><span class="art-coordinate coordinate-top">AVENOR / CARS</span><div class="art-disc"></div><img src="/assets/car-blueprint.svg" alt="" width="920" height="620" fetchpriority="high"><span class="art-coordinate coordinate-bottom">52° N · 21° E <span>WARSAW</span></span></div></div></section>
+<div class="hero-bottom"><span class="tiny-cross" aria-hidden="true">+</span><span>WARSZAWA · {e(BUSINESS['display_area'].upper())}</span><span class="hero-line" aria-hidden="true"></span></div>
+</div></div></section>
 <div class="facts-strip"><div class="container facts-grid"><div><span>{e(t['location_label'])}</span><strong>{e(t['location_value'])}</strong></div><div><span>{e(t['brands_label'])}</span><strong>{e(t['brands_value'])}</strong></div><div><span>{e(t['contact_label'])}</span><a href="tel:{TEL}">{PHONE}<span aria-hidden="true">↗</span></a></div></div></div>
 <section id="services" class="section services-section"><div class="container"><div class="section-heading"><div><p class="kicker">01 / {e(t['intro_kicker'])}</p><h2>{e(t['intro_title'])}</h2></div><p class="heading-description">{e(t['intro_text'])}</p></div><div class="services-grid">{cards}</div><p class="price-note"><span aria-hidden="true">↗</span>{e(t['price_note'])}</p></div></section>
 <section id="prices" class="section prices-section"><div class="container"><div class="section-heading"><div><p class="kicker">{e(t['prices_kicker'])}</p><h2>{e(t['prices_title'])}</h2></div><p class="heading-description">{e(t['prices_intro'])}</p></div><div class="price-table-wrap"><table class="price-table"><caption class="visually-hidden">{e(t['prices_title'])}</caption><thead><tr>{''.join(f'<th scope="col">{e(label)}</th>' for label in t['prices_columns'])}</tr></thead><tbody>{price_rows}</tbody></table></div><p class="price-note">{e(t['prices_note'])}</p><div class="warranty-note"><h3>{e(t['warranty_title'])}</h3><p>{e(t['warranty_text'])}</p></div></div></section>
@@ -121,7 +121,7 @@ def page(lang, t, production):
 <section id="faq" class="section faq-section"><div class="container faq-grid"><div><p class="kicker">04 / {e(t['faq_kicker'])}</p><h2>{e(t['faq_title'])}</h2></div><div class="faq-list">{faq}</div></div></section>
 <section id="contacts" class="contact-section"><div class="container"><p class="kicker">05 / {e(t['contact_kicker'])}</p><div class="contact-grid"><div><h2>{e(t['contact_title'])}</h2><p>{e(t['contact_text'])}</p><div class="contact-address"><span class="phone-label">{e(t['address_label'])}</span><a href="{e(MAPS_URL)}" target="_blank" rel="noopener noreferrer">{e(FULL_ADDRESS)}</a></div><div class="opening-hours"><span class="phone-label">{e(t['hours_label'])}</span><dl>{hours}</dl></div><a class="sms-link route-link" href="{e(DIRECTIONS_URL)}" target="_blank" rel="noopener noreferrer">{e(t['route_cta'])}<span aria-hidden="true">↗</span></a></div><div class="contact-details"><span class="phone-label">{e(t['phone_label'])}</span><a class="big-phone" href="tel:{TEL}">{PHONE}<span aria-hidden="true">↗</span></a><div class="contact-actions"><a class="button button-dark" href="tel:{TEL}">{e(t['call_cta'])}<span aria-hidden="true">↗</span></a><a class="sms-link" href="sms:{TEL}">{e(t['sms_cta'])}<span aria-hidden="true">↗</span></a></div><p class="contact-location">{e(t['location_text'])}</p></div></div></div></section>
 </main>
-<footer class="site-footer"><div class="container footer-top"><a class="wordmark" href="{route}"><span class="brand-symbol" aria-hidden="true">A<span></span></span><span>AVENOR<span class="wordmark-small">CARS · WARSAW</span></span></a><p>{e(t['footer_text'])}</p><div class="languages">{languages}</div></div><div class="container footer-bottom"><span>© 2026 Avenor Cars</span><span>{e(t['footer_note'])}</span><a href="tel:{TEL}">{PHONE}</a></div></footer>
+<footer class="site-footer"><div class="container footer-top"><a class="wordmark" href="{route}"><img class="brand-logo" src="/assets/avenor-logo.webp" alt="Avenor Cars" width="480" height="320" loading="lazy" decoding="async"></a><p>{e(t['footer_text'])}</p><div class="languages">{languages}</div></div><div class="container footer-bottom"><span>© 2026 Avenor Cars</span><span>{e(t['footer_note'])}</span><a href="tel:{TEL}">{PHONE}</a></div></footer>
 </body></html>'''.replace('↗', '<svg class="arrow-icon" aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 16 16 4M4 4h12v12"/></svg>')
 
 def service_page(lang, main_text, data, key, production):

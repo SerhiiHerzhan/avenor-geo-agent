@@ -10,16 +10,27 @@
   },
   "openingHoursSpecification": [
     {
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
       "opens": "09:00",
       "closes": "19:00"
     },
     {
-      "dayOfWeek": ["Saturday"],
+      "dayOfWeek": [
+        "Saturday"
+      ],
       "opens": "09:00",
       "closes": "12:00"
     }
   ],
   "data_source": "Address supplied in the user message; phone, services, hours and commercial figures supplied in the user's brief.",
-  "indexing_authorized": true
+  "indexing_authorized": true,
+  "display_area": "Praga-Południe",
+  "display_area_source": "Owner requested this district label in chat on 2026-10-08; geographic membership of the street address is not independently verified because map/geocoder access is blocked.",
+  "address_district_verified": false
 }
