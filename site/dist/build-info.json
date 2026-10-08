@@ -3,7 +3,19 @@
   "routes": [
     "/",
     "/ua/",
-    "/pl/"
+    "/pl/",
+    "/diagnostics/",
+    "/ua/diagnostics/",
+    "/pl/diagnostics/",
+    "/oil-change/",
+    "/ua/oil-change/",
+    "/pl/oil-change/",
+    "/suspension/",
+    "/ua/suspension/",
+    "/pl/suspension/",
+    "/brakes/",
+    "/ua/brakes/",
+    "/pl/brakes/"
   ],
   "business_data_source": "Address supplied in the user message; phone, services, hours and commercial figures supplied in the user's brief.",
   "indexing_authorized_by_owner": true

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "file": "avenor-hosting-production.zip",
+  "sha256": "170f11d337c60630df7900d9022e5c24540c9efdfd17dfa5c31056ca640489f5",
+  "static_files": 22,
+  "indexed_pages": 15,
+  "root_index": true,
+  "payload_matches_dist": true,
+  "permissions": {
+    "files": "0644",
+    "directories": "0755"
+  },
+  "source_only_files_in_hosting": false,
+  "legacy_hosting_identical": true
+}

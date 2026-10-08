@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-08",
+  "scope": "Four HTML pages plus robots and sitemap per competitor. Source HTML audit only; rankings, traffic, links and review authenticity not measured.",
+  "competitor_requests": [
+    {
+      "competitor": "RalCar",
+      "url": "https://ralcar.pl/",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:15:25.941721+00:00",
+      "sha256": "06a18fdf56333c0cf239280eb5da6278b34138f4686472cd612302fc9fc748be",
+      "tls_verified": true
+    },
+    {
+      "competitor": "RalCar",
+      "url": "https://ralcar.pl/robots.txt",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:16:21.306540+00:00",
+      "sha256": "9d7777996bf66ae425ffdb280c12bb56eed1c910669a0292143f6c604298c218",
+      "tls_verified": true
+    },
+    {
+      "competitor": "RalCar",
+      "url": "https://ralcar.pl/contacts/",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:16:21.307545+00:00",
+      "sha256": "e7bdf8c6e41bfd2d4cc1cb7d20c22caace0ee3e79ef866ea99a662becc6d278f",
+      "tls_verified": true
+    },
+    {
+      "competitor": "RalCar",
+      "url": "https://ralcar.pl/services/",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:16:21.308325+00:00",
+      "sha256": "04c1bafac7b420691a3d33bd4749f1260a543d3977bebd4f9ac70f7c50417d81",
+      "tls_verified": true
+    },
+    {
+      "competitor": "RalCar",
+      "url": "https://ralcar.pl/services/diagnostika-avtomobilja/",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:16:21.308689+00:00",
+      "sha256": "4e4fb33d7ba220896fad02f30b4910673858ef35ed9db0de71a9cf1f3a9f881b",
+      "tls_verified": true
+    },
+    {
+      "competitor": "RalCar",
+      "url": "https://ralcar.pl/sitemap.xml",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:17:43.215777+00:00",
+      "sha256": "2c735fa2df64423a7a8ea5c4e5aca267a1ec0b4bcdc6e78dc40ed8c87f44bded",
+      "tls_verified": true
+    },
+    {
+      "competitor": "RemZone",
+      "url": "https://remzone.pl/ru/",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:16:20.720222+00:00",
+      "sha256": "17cac82f61d86b91c1005f28fe6913c341346501faa8185b2847a0e70f61708c",
+      "tls_verified": true
+    },
+    {
+      "competitor": "RemZone",
+      "url": "https://remzone.pl/robots.txt",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:18:10.517252+00:00",
+      "sha256": "724ea5095ce5fb5aa5f84724edcc5a71e94831300b0b2f3e5b0d598061a91a76",
+      "tls_verified": true
+    },
+    {
+      "competitor": "RemZone",
+      "url": "https://remzone.pl/ru/services/",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:18:14.449258+00:00",
+      "sha256": "a0338f6e8a11d6719a376c82cc3f0f2dc553b272e9334d7cea1468b04a56613b",
+      "tls_verified": true
+    },
+    {
+      "competitor": "RemZone",
+      "url": "https://remzone.pl/ru/contacts/",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:18:18.529496+00:00",
+      "sha256": "ebcdaec2c90c9ac3417034496b5ff4ace67b264736bf59a1b5eaf716bc7cc536",
+      "tls_verified": true
+    },
+    {
+      "competitor": "RemZone",
+      "url": "https://remzone.pl/sitemap.xml",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:18:39.114205+00:00",
+      "sha256": "fb6711c4e3ccfa915ab8524498c6bad5ed53af61574082af88484a39c087ddbd",
+      "tls_verified": true
+    },
+    {
+      "competitor": "RemZone",
+      "url": "https://remzone.pl/ru/services/kompjuternaja-diagnostika/",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:18:43.777944+00:00",
+      "sha256": "88b449f6a9382d24da0f11947921c6faa1a81a46075642a29d91c89d80e3f3e8",
+      "tls_verified": true
+    },
+    {
+      "competitor": "TITAN",
+      "url": "https://stowarszawa.pl/",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:17:24.649310+00:00",
+      "sha256": "cb8aefd5d99e0095fc901e6ed9df6dea5b26112ea7bfe53e26bc722b12cc372f",
+      "tls_verified": true
+    },
+    {
+      "competitor": "TITAN",
+      "url": "https://stowarszawa.pl/auto_remont",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:17:43.583115+00:00",
+      "sha256": "b1a713b09311f6104411799154b5233f240ff64e0288d7db402b2f27c38bc35c",
+      "tls_verified": true
+    },
+    {
+      "competitor": "TITAN",
+      "url": "https://stowarszawa.pl/robots.txt",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:17:44.766618+00:00",
+      "sha256": "89265cdb44375e152513b27dce5cbf3f42c4e21b1b5901a708146e37ed9ea9fc",
+      "tls_verified": true
+    },
+    {
+      "competitor": "TITAN",
+      "url": "https://stowarszawa.pl/sitemap.xml",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:17:45.438900+00:00",
+      "sha256": "03e43cf80c66599317b3ac927d287132efcba3d7e9e973948cd5ac70e9b44013",
+      "tls_verified": true
+    },
+    {
+      "competitor": "TITAN",
+      "url": "https://stowarszawa.pl/kompyuternaya-diagnostika",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:18:28.904930+00:00",
+      "sha256": "64f91bf932aabba666bd5273a2f263df219cb4fd5f4d347170e80298a051efe5",
+      "tls_verified": true
+    },
+    {
+      "competitor": "TITAN",
+      "url": "https://stowarszawa.pl/zamena-masla-i-maslyanogo-filtra",
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:18:36.718423+00:00",
+      "sha256": "f410c0dba908373175c45a40e8e9a765693374cadd771474887a6d64b2a5259c",
+      "tls_verified": true
+    }
+  ],
+  "avenor_public": [
+    {
+      "resource": "homepage-browser-ua.http.json",
+      "status": 403,
+      "final_url": "https://stowarszawa.com/",
+      "sha256": "a006d8342fd71f210203b9b727385ff53419736eba7522db1156c934ccb69ce4",
+      "response_title": "403 Forbidden - Apache",
+      "response_date_utc": "2026-10-08T08:18:20Z"
+    },
+    {
+      "resource": "homepage.http.json",
+      "url": "https://stowarszawa.com/",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "status": 403
+    },
+    {
+      "resource": "robots.txt.http.json",
+      "url": "https://stowarszawa.com/robots.txt",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/robots.txt",
+      "bytes": 559,
+      "content_type": "text/plain; charset=utf-8",
+      "robots_header": null
+    },
+    {
+      "resource": "sitemap.xml.http.json",
+      "url": "https://stowarszawa.com/sitemap.xml",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "status": 404
+    }
+  ],
+  "public_robots": "# BEGIN adm.tools Managed content\n\nUser-agent: *\nAllow: /\n\nUser-Agent: SemrushBot\nUser-Agent: AhrefsBot\nUser-Agent: MJ12bot\nUser-Agent: Amazonbot\nUser-Agent: DataForSeoBot\nUser-Agent: barkrowler\nUser-Agent: Bytespider\nUser-Agent: ClaudeBot\nUser-Agent: GPTBot\nUser-Agent: meta-externalagent\nUser-Agent: Baiduspider\nUser-Agent: PerplexityBot\nUser-Agent: meta-webindexer\nUser-Agent: SERankingBacklinksBot\nUser-Agent: Claude-User\nUser-Agent: Claude-SearchBot\nUser-Agent: Perplexity‑User\nUser-Agent: AhrefsSiteAudit\nDisallow: /\n\n# END adm.tools Managed content\n\n",
+  "preliminary_access_probes": {
+    "count": 4,
+    "urls": [
+      "https://ralcar.pl/",
+      "https://remzone.pl/ru/",
+      "https://stowarszawa.pl/",
+      "https://stowarszawa.pl/auto_remont"
+    ],
+    "status": 200,
+    "included_in_detailed_manifest": false,
+    "adds_unique_pages": false
+  }
+}

@@ -1,953 +1,7215 @@
-[
-  {
-    "language": "ru",
-    "width": 320,
-    "status": 200,
-    "layout": {
-      "viewport": 320,
-      "scrollWidth": 320,
-      "bodyWidth": 320,
-      "textOverflow": []
-    },
-    "menuOpen": true,
-    "menuClose": true,
-    "menuEscape": true,
-    "menuPricesClose": true,
-    "pricesNavigation": {
-      "hash": "#prices",
-      "top": 84,
-      "headerBottom": 75
-    },
-    "priceTable": {
-      "width": 276,
-      "wrapperClient": 276,
-      "wrapperScroll": 276,
-      "rows": [
-        {
-          "texts": [
-            "Диагностика",
-            "100 zł",
-            "Состав диагностики и условия зачёта её стоимости в ремонт уточните до визита."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
-        },
-        {
-          "texts": [
-            "Замена масла",
-            "150 zł",
-            "Стоимость работы. Цена масла и фильтров уточняется отдельно."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
-        },
-        {
-          "texts": [
-            "Нормо-час",
-            "250 zł",
-            "Уточните, для каких работ применяется ставка и как рассчитывается время."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
-        }
-      ]
-    },
-    "contact": {
-      "text": "АДРЕС\nChełmżyńska 5, 04-247 Warszawa",
-      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-      "target": "_blank",
-      "rel": "noopener noreferrer"
-    },
-    "hours": "ЧАСЫ РАБОТЫ\nПонедельник–пятница\n09:00–19:00\nСуббота\n09:00–12:00",
-    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-    "images": [
-      {
-        "src": "/assets/car-blueprint.svg",
-        "complete": true,
-        "naturalWidth": 920
-      }
+{
+  "summary": {
+    "base_url": "http://127.0.0.1:8002",
+    "pages": 15,
+    "widths": [
+      320,
+      390,
+      768,
+      1440
     ],
-    "errors": [],
-    "failedRequests": []
+    "checks_completed": 60,
+    "findings_count": 0,
+    "findings": [],
+    "screenshots": [
+      "production-desktop.png",
+      "production-mobile.png",
+      "service-diagnostics-desktop.png",
+      "service-diagnostics-mobile.png",
+      "service-oil-change-pl-mobile.png"
+    ],
+    "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+    "engine": "System Chromium /usr/bin/chromium via Playwright, headless, no-sandbox",
+    "interaction_counts": {
+      "menu_variants": 45,
+      "faq_open_close_cases": 240,
+      "homepage_service_clicks": 96,
+      "language_clicks": 60,
+      "toc_anchor_clicks": 336,
+      "service_hero_link_contrast_min": 15.61,
+      "service_hero_link_contrast_max": 15.61
+    },
+    "visual_review": {
+      "screenshots_reviewed": [
+        "production-desktop.png",
+        "production-mobile.png",
+        "service-diagnostics-desktop.png",
+        "service-diagnostics-mobile.png",
+        "service-oil-change-pl-mobile.png"
+      ],
+      "findings": [],
+      "service_link_contrast": "Computed normal-text contrast passes AA in every service-language-width variant after final CSS update."
+    },
+    "seo_competitor_report_review": {
+      "file": "/workspace/avenor-geo-agent/site/SEO-COMPETITORS.md",
+      "scope": "TITAN-specific claims compared with saved audit evidence only",
+      "result": "matches",
+      "findings": []
+    }
   },
-  {
-    "language": "ru",
-    "width": 390,
-    "status": 200,
-    "layout": {
-      "viewport": 390,
-      "scrollWidth": 390,
-      "bodyWidth": 390,
-      "textOverflow": []
-    },
-    "menuOpen": true,
-    "menuClose": true,
-    "menuEscape": true,
-    "menuPricesClose": true,
-    "pricesNavigation": {
-      "hash": "#prices",
-      "top": 84,
-      "headerBottom": 75
-    },
-    "priceTable": {
-      "width": 346,
-      "wrapperClient": 346,
-      "wrapperScroll": 346,
-      "rows": [
+  "checks": [
+    {
+      "path": "/",
+      "language": "ru",
+      "intent": "homepage",
+      "width": 320,
+      "status": 200,
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [
         {
-          "texts": [
-            "Диагностика",
-            "100 zł",
-            "Состав диагностики и условия зачёта её стоимости в ремонт уточните до визита."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
-        },
-        {
-          "texts": [
-            "Замена масла",
-            "150 zł",
-            "Стоимость работы. Цена масла и фильтров уточняется отдельно."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
-        },
-        {
-          "texts": [
-            "Нормо-час",
-            "250 zł",
-            "Уточните, для каких работ применяется ставка и как рассчитывается время."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
+          "src": "/assets/car-blueprint.svg",
+          "complete": true,
+          "naturalWidth": 920
         }
-      ]
-    },
-    "contact": {
-      "text": "АДРЕС\nChełmżyńska 5, 04-247 Warszawa",
-      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-      "target": "_blank",
-      "rel": "noopener noreferrer"
-    },
-    "hours": "ЧАСЫ РАБОТЫ\nПонедельник–пятница\n09:00–19:00\nСуббота\n09:00–12:00",
-    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-    "images": [
-      {
-        "src": "/assets/car-blueprint.svg",
-        "complete": true,
-        "naturalWidth": 920
-      }
-    ],
-    "errors": [],
-    "failedRequests": []
-  },
-  {
-    "language": "ru",
-    "width": 768,
-    "status": 200,
-    "layout": {
-      "viewport": 768,
-      "scrollWidth": 768,
-      "bodyWidth": 768,
-      "textOverflow": []
-    },
-    "menuOpen": true,
-    "menuClose": true,
-    "menuEscape": true,
-    "menuPricesClose": true,
-    "pricesNavigation": {
-      "hash": "#prices",
-      "top": 104,
-      "headerBottom": 79
-    },
-    "priceTable": {
-      "width": 712,
-      "wrapperClient": 712,
-      "wrapperScroll": 712,
-      "rows": [
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "expected": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/",
+        "actual": "/ua/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "homepageServiceLinks": [
         {
-          "texts": [
-            "Диагностика",
-            "100 zł",
-            "Состав диагностики и условия зачёта её стоимости в ремонт уточните до визита."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
+          "target": "/diagnostics/",
+          "linkKind": "heading",
+          "actual": "/diagnostics/",
+          "serviceBody": true
         },
         {
-          "texts": [
-            "Замена масла",
-            "150 zł",
-            "Стоимость работы. Цена масла и фильтров уточняется отдельно."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
+          "target": "/diagnostics/",
+          "linkKind": "detail",
+          "actual": "/diagnostics/",
+          "serviceBody": true
         },
         {
-          "texts": [
-            "Нормо-час",
-            "250 zł",
-            "Уточните, для каких работ применяется ставка и как рассчитывается время."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
+          "target": "/oil-change/",
+          "linkKind": "heading",
+          "actual": "/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/oil-change/",
+          "linkKind": "detail",
+          "actual": "/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/suspension/",
+          "linkKind": "heading",
+          "actual": "/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/suspension/",
+          "linkKind": "detail",
+          "actual": "/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/brakes/",
+          "linkKind": "heading",
+          "actual": "/brakes/",
+          "serviceBody": true
+        },
+        {
+          "target": "/brakes/",
+          "linkKind": "detail",
+          "actual": "/brakes/",
+          "serviceBody": true
         }
-      ]
-    },
-    "contact": {
-      "text": "АДРЕС\nChełmżyńska 5, 04-247 Warszawa",
-      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-      "target": "_blank",
-      "rel": "noopener noreferrer"
-    },
-    "hours": "ЧАСЫ РАБОТЫ\nПонедельник–пятница\n09:00–19:00\nСуббота\n09:00–12:00",
-    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-    "images": [
-      {
-        "src": "/assets/car-blueprint.svg",
-        "complete": true,
-        "naturalWidth": 920
-      }
-    ],
-    "errors": [],
-    "failedRequests": []
-  },
-  {
-    "language": "ru",
-    "width": 1440,
-    "status": 200,
-    "layout": {
-      "viewport": 1440,
-      "scrollWidth": 1440,
-      "bodyWidth": 1440,
-      "textOverflow": []
-    },
-    "desktopPricesNav": true,
-    "pricesNavigation": {
-      "hash": "#prices",
-      "top": 104,
-      "headerBottom": 95
-    },
-    "priceTable": {
-      "width": 1168,
-      "wrapperClient": 1168,
-      "wrapperScroll": 1168,
-      "rows": [
+      ],
+      "faq": [
         {
-          "texts": [
-            "Диагностика",
-            "100 zł",
-            "Состав диагностики и условия зачёта её стоимости в ремонт уточните до визита."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
+          "index": 0,
+          "open": true,
+          "close": true
         },
         {
-          "texts": [
-            "Замена масла",
-            "150 zł",
-            "Стоимость работы. Цена масла и фильтров уточняется отдельно."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
+          "index": 1,
+          "open": true,
+          "close": true
         },
         {
-          "texts": [
-            "Нормо-час",
-            "250 zł",
-            "Уточните, для каких работ применяется ставка и как рассчитывается время."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
         }
-      ]
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
     },
-    "contact": {
-      "text": "АДРЕС\nChełmżyńska 5, 04-247 Warszawa",
-      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-      "target": "_blank",
-      "rel": "noopener noreferrer"
-    },
-    "hours": "ЧАСЫ РАБОТЫ\nПонедельник–пятница\n09:00–19:00\nСуббота\n09:00–12:00",
-    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-    "images": [
-      {
-        "src": "/assets/car-blueprint.svg",
-        "complete": true,
-        "naturalWidth": 920
-      }
-    ],
-    "errors": [],
-    "failedRequests": []
-  },
-  {
-    "language": "ua",
-    "width": 320,
-    "status": 200,
-    "layout": {
-      "viewport": 320,
-      "scrollWidth": 320,
-      "bodyWidth": 320,
-      "textOverflow": []
-    },
-    "menuOpen": true,
-    "menuClose": true,
-    "menuEscape": true,
-    "menuPricesClose": true,
-    "pricesNavigation": {
-      "hash": "#prices",
-      "top": 84,
-      "headerBottom": 75
-    },
-    "priceTable": {
-      "width": 276,
-      "wrapperClient": 276,
-      "wrapperScroll": 276,
-      "rows": [
+    {
+      "path": "/",
+      "language": "ru",
+      "intent": "homepage",
+      "width": 390,
+      "status": 200,
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [
         {
-          "texts": [
-            "Діагностика",
-            "100 zł",
-            "Склад діагностики та умови зарахування її вартості в ремонт уточніть до візиту."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
-        },
-        {
-          "texts": [
-            "Заміна мастила",
-            "150 zł",
-            "Вартість роботи. Ціна мастила й фільтрів уточнюється окремо."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
-        },
-        {
-          "texts": [
-            "Нормо-година",
-            "250 zł",
-            "Уточніть, для яких робіт застосовується ставка та як розраховується час."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
+          "src": "/assets/car-blueprint.svg",
+          "complete": true,
+          "naturalWidth": 920
         }
-      ]
-    },
-    "contact": {
-      "text": "АДРЕСА\nChełmżyńska 5, 04-247 Warszawa",
-      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-      "target": "_blank",
-      "rel": "noopener noreferrer"
-    },
-    "hours": "ГОДИНИ РОБОТИ\nПонеділок–п’ятниця\n09:00–19:00\nСубота\n09:00–12:00",
-    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-    "images": [
-      {
-        "src": "/assets/car-blueprint.svg",
-        "complete": true,
-        "naturalWidth": 920
-      }
-    ],
-    "errors": [],
-    "failedRequests": []
-  },
-  {
-    "language": "ua",
-    "width": 390,
-    "status": 200,
-    "layout": {
-      "viewport": 390,
-      "scrollWidth": 390,
-      "bodyWidth": 390,
-      "textOverflow": []
-    },
-    "menuOpen": true,
-    "menuClose": true,
-    "menuEscape": true,
-    "menuPricesClose": true,
-    "pricesNavigation": {
-      "hash": "#prices",
-      "top": 84,
-      "headerBottom": 75
-    },
-    "priceTable": {
-      "width": 346,
-      "wrapperClient": 346,
-      "wrapperScroll": 346,
-      "rows": [
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "expected": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/",
+        "actual": "/ua/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "homepageServiceLinks": [
         {
-          "texts": [
-            "Діагностика",
-            "100 zł",
-            "Склад діагностики та умови зарахування її вартості в ремонт уточніть до візиту."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
+          "target": "/diagnostics/",
+          "linkKind": "heading",
+          "actual": "/diagnostics/",
+          "serviceBody": true
         },
         {
-          "texts": [
-            "Заміна мастила",
-            "150 zł",
-            "Вартість роботи. Ціна мастила й фільтрів уточнюється окремо."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
+          "target": "/diagnostics/",
+          "linkKind": "detail",
+          "actual": "/diagnostics/",
+          "serviceBody": true
         },
         {
-          "texts": [
-            "Нормо-година",
-            "250 zł",
-            "Уточніть, для яких робіт застосовується ставка та як розраховується час."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
+          "target": "/oil-change/",
+          "linkKind": "heading",
+          "actual": "/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/oil-change/",
+          "linkKind": "detail",
+          "actual": "/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/suspension/",
+          "linkKind": "heading",
+          "actual": "/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/suspension/",
+          "linkKind": "detail",
+          "actual": "/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/brakes/",
+          "linkKind": "heading",
+          "actual": "/brakes/",
+          "serviceBody": true
+        },
+        {
+          "target": "/brakes/",
+          "linkKind": "detail",
+          "actual": "/brakes/",
+          "serviceBody": true
         }
-      ]
-    },
-    "contact": {
-      "text": "АДРЕСА\nChełmżyńska 5, 04-247 Warszawa",
-      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-      "target": "_blank",
-      "rel": "noopener noreferrer"
-    },
-    "hours": "ГОДИНИ РОБОТИ\nПонеділок–п’ятниця\n09:00–19:00\nСубота\n09:00–12:00",
-    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-    "images": [
-      {
-        "src": "/assets/car-blueprint.svg",
-        "complete": true,
-        "naturalWidth": 920
-      }
-    ],
-    "errors": [],
-    "failedRequests": []
-  },
-  {
-    "language": "ua",
-    "width": 768,
-    "status": 200,
-    "layout": {
-      "viewport": 768,
-      "scrollWidth": 768,
-      "bodyWidth": 768,
-      "textOverflow": []
-    },
-    "menuOpen": true,
-    "menuClose": true,
-    "menuEscape": true,
-    "menuPricesClose": true,
-    "pricesNavigation": {
-      "hash": "#prices",
-      "top": 104,
-      "headerBottom": 79
-    },
-    "priceTable": {
-      "width": 712,
-      "wrapperClient": 712,
-      "wrapperScroll": 712,
-      "rows": [
+      ],
+      "faq": [
         {
-          "texts": [
-            "Діагностика",
-            "100 zł",
-            "Склад діагностики та умови зарахування її вартості в ремонт уточніть до візиту."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
+          "index": 0,
+          "open": true,
+          "close": true
         },
         {
-          "texts": [
-            "Заміна мастила",
-            "150 zł",
-            "Вартість роботи. Ціна мастила й фільтрів уточнюється окремо."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
+          "index": 1,
+          "open": true,
+          "close": true
         },
         {
-          "texts": [
-            "Нормо-година",
-            "250 zł",
-            "Уточніть, для яких робіт застосовується ставка та як розраховується час."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
         }
-      ]
+      ],
+      "screenshot": "/workspace/avenor-geo-agent/site/qa/production-mobile.png",
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
     },
-    "contact": {
-      "text": "АДРЕСА\nChełmżyńska 5, 04-247 Warszawa",
-      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-      "target": "_blank",
-      "rel": "noopener noreferrer"
-    },
-    "hours": "ГОДИНИ РОБОТИ\nПонеділок–п’ятниця\n09:00–19:00\nСубота\n09:00–12:00",
-    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-    "images": [
-      {
-        "src": "/assets/car-blueprint.svg",
-        "complete": true,
-        "naturalWidth": 920
-      }
-    ],
-    "errors": [],
-    "failedRequests": []
-  },
-  {
-    "language": "ua",
-    "width": 1440,
-    "status": 200,
-    "layout": {
-      "viewport": 1440,
-      "scrollWidth": 1440,
-      "bodyWidth": 1440,
-      "textOverflow": []
-    },
-    "desktopPricesNav": true,
-    "pricesNavigation": {
-      "hash": "#prices",
-      "top": 104,
-      "headerBottom": 95
-    },
-    "priceTable": {
-      "width": 1168,
-      "wrapperClient": 1168,
-      "wrapperScroll": 1168,
-      "rows": [
+    {
+      "path": "/",
+      "language": "ru",
+      "intent": "homepage",
+      "width": 768,
+      "status": 200,
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [
         {
-          "texts": [
-            "Діагностика",
-            "100 zł",
-            "Склад діагностики та умови зарахування її вартості в ремонт уточніть до візиту."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
-        },
-        {
-          "texts": [
-            "Заміна мастила",
-            "150 zł",
-            "Вартість роботи. Ціна мастила й фільтрів уточнюється окремо."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
-        },
-        {
-          "texts": [
-            "Нормо-година",
-            "250 zł",
-            "Уточніть, для яких робіт застосовується ставка та як розраховується час."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
+          "src": "/assets/car-blueprint.svg",
+          "complete": true,
+          "naturalWidth": 920
         }
-      ]
-    },
-    "contact": {
-      "text": "АДРЕСА\nChełmżyńska 5, 04-247 Warszawa",
-      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-      "target": "_blank",
-      "rel": "noopener noreferrer"
-    },
-    "hours": "ГОДИНИ РОБОТИ\nПонеділок–п’ятниця\n09:00–19:00\nСубота\n09:00–12:00",
-    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-    "images": [
-      {
-        "src": "/assets/car-blueprint.svg",
-        "complete": true,
-        "naturalWidth": 920
-      }
-    ],
-    "errors": [],
-    "failedRequests": []
-  },
-  {
-    "language": "pl",
-    "width": 320,
-    "status": 200,
-    "layout": {
-      "viewport": 320,
-      "scrollWidth": 320,
-      "bodyWidth": 320,
-      "textOverflow": []
-    },
-    "menuOpen": true,
-    "menuClose": true,
-    "menuEscape": true,
-    "menuPricesClose": true,
-    "pricesNavigation": {
-      "hash": "#prices",
-      "top": 84,
-      "headerBottom": 75
-    },
-    "priceTable": {
-      "width": 276,
-      "wrapperClient": 276,
-      "wrapperScroll": 276,
-      "rows": [
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "expected": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/",
+        "actual": "/ua/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "homepageServiceLinks": [
         {
-          "texts": [
-            "Diagnostyka",
-            "100 zł",
-            "Przed wizytą zapytaj o zakres diagnostyki i warunki zaliczenia jej kosztu na poczet naprawy."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
+          "target": "/diagnostics/",
+          "linkKind": "heading",
+          "actual": "/diagnostics/",
+          "serviceBody": true
         },
         {
-          "texts": [
-            "Wymiana oleju",
-            "150 zł",
-            "Cena robocizny. O koszt oleju i filtrów zapytaj osobno."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
+          "target": "/diagnostics/",
+          "linkKind": "detail",
+          "actual": "/diagnostics/",
+          "serviceBody": true
         },
         {
-          "texts": [
-            "Roboczogodzina",
-            "250 zł",
-            "Zapytaj, do jakich prac odnosi się stawka i jak obliczany jest czas pracy."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
+          "target": "/oil-change/",
+          "linkKind": "heading",
+          "actual": "/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/oil-change/",
+          "linkKind": "detail",
+          "actual": "/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/suspension/",
+          "linkKind": "heading",
+          "actual": "/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/suspension/",
+          "linkKind": "detail",
+          "actual": "/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/brakes/",
+          "linkKind": "heading",
+          "actual": "/brakes/",
+          "serviceBody": true
+        },
+        {
+          "target": "/brakes/",
+          "linkKind": "detail",
+          "actual": "/brakes/",
+          "serviceBody": true
         }
-      ]
-    },
-    "contact": {
-      "text": "ADRES\nChełmżyńska 5, 04-247 Warszawa",
-      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-      "target": "_blank",
-      "rel": "noopener noreferrer"
-    },
-    "hours": "GODZINY OTWARCIA\nPoniedziałek–piątek\n09:00–19:00\nSobota\n09:00–12:00",
-    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-    "images": [
-      {
-        "src": "/assets/car-blueprint.svg",
-        "complete": true,
-        "naturalWidth": 920
-      }
-    ],
-    "errors": [],
-    "failedRequests": []
-  },
-  {
-    "language": "pl",
-    "width": 390,
-    "status": 200,
-    "layout": {
-      "viewport": 390,
-      "scrollWidth": 390,
-      "bodyWidth": 390,
-      "textOverflow": []
-    },
-    "menuOpen": true,
-    "menuClose": true,
-    "menuEscape": true,
-    "menuPricesClose": true,
-    "pricesNavigation": {
-      "hash": "#prices",
-      "top": 84,
-      "headerBottom": 75
-    },
-    "priceTable": {
-      "width": 346,
-      "wrapperClient": 346,
-      "wrapperScroll": 346,
-      "rows": [
+      ],
+      "faq": [
         {
-          "texts": [
-            "Diagnostyka",
-            "100 zł",
-            "Przed wizytą zapytaj o zakres diagnostyki i warunki zaliczenia jej kosztu na poczet naprawy."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
+          "index": 0,
+          "open": true,
+          "close": true
         },
         {
-          "texts": [
-            "Wymiana oleju",
-            "150 zł",
-            "Cena robocizny. O koszt oleju i filtrów zapytaj osobno."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
+          "index": 1,
+          "open": true,
+          "close": true
         },
         {
-          "texts": [
-            "Roboczogodzina",
-            "250 zł",
-            "Zapytaj, do jakich prac odnosi się stawka i jak obliczany jest czas pracy."
-          ],
-          "fontSizes": [
-            "18px",
-            "22px",
-            "12px"
-          ]
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
         }
-      ]
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
     },
-    "contact": {
-      "text": "ADRES\nChełmżyńska 5, 04-247 Warszawa",
-      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-      "target": "_blank",
-      "rel": "noopener noreferrer"
-    },
-    "hours": "GODZINY OTWARCIA\nPoniedziałek–piątek\n09:00–19:00\nSobota\n09:00–12:00",
-    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-    "images": [
-      {
-        "src": "/assets/car-blueprint.svg",
-        "complete": true,
-        "naturalWidth": 920
-      }
-    ],
-    "errors": [],
-    "failedRequests": []
-  },
-  {
-    "language": "pl",
-    "width": 768,
-    "status": 200,
-    "layout": {
-      "viewport": 768,
-      "scrollWidth": 768,
-      "bodyWidth": 768,
-      "textOverflow": []
-    },
-    "menuOpen": true,
-    "menuClose": true,
-    "menuEscape": true,
-    "menuPricesClose": true,
-    "pricesNavigation": {
-      "hash": "#prices",
-      "top": 104,
-      "headerBottom": 79
-    },
-    "priceTable": {
-      "width": 712,
-      "wrapperClient": 712,
-      "wrapperScroll": 712,
-      "rows": [
+    {
+      "path": "/",
+      "language": "ru",
+      "intent": "homepage",
+      "width": 1440,
+      "status": 200,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "textOverflow": []
+      },
+      "images": [
         {
-          "texts": [
-            "Diagnostyka",
-            "100 zł",
-            "Przed wizytą zapytaj o zakres diagnostyki i warunki zaliczenia jej kosztu na poczet naprawy."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
-        },
-        {
-          "texts": [
-            "Wymiana oleju",
-            "150 zł",
-            "Cena robocizny. O koszt oleju i filtrów zapytaj osobno."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
-        },
-        {
-          "texts": [
-            "Roboczogodzina",
-            "250 zł",
-            "Zapytaj, do jakich prac odnosi się stawka i jak obliczany jest czas pracy."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
+          "src": "/assets/car-blueprint.svg",
+          "complete": true,
+          "naturalWidth": 920
         }
-      ]
-    },
-    "contact": {
-      "text": "ADRES\nChełmżyńska 5, 04-247 Warszawa",
-      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-      "target": "_blank",
-      "rel": "noopener noreferrer"
-    },
-    "hours": "GODZINY OTWARCIA\nPoniedziałek–piątek\n09:00–19:00\nSobota\n09:00–12:00",
-    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-    "images": [
-      {
-        "src": "/assets/car-blueprint.svg",
-        "complete": true,
-        "naturalWidth": 920
-      }
-    ],
-    "errors": [],
-    "failedRequests": []
-  },
-  {
-    "language": "pl",
-    "width": 1440,
-    "status": 200,
-    "layout": {
-      "viewport": 1440,
-      "scrollWidth": 1440,
-      "bodyWidth": 1440,
-      "textOverflow": []
-    },
-    "desktopPricesNav": true,
-    "pricesNavigation": {
-      "hash": "#prices",
-      "top": 104,
-      "headerBottom": 95
-    },
-    "priceTable": {
-      "width": 1168,
-      "wrapperClient": 1168,
-      "wrapperScroll": 1168,
-      "rows": [
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "expected": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/",
+        "actual": "/ua/",
+        "passed": true
+      },
+      "desktopNavigationVisible": true,
+      "homepageServiceLinks": [
         {
-          "texts": [
-            "Diagnostyka",
-            "100 zł",
-            "Przed wizytą zapytaj o zakres diagnostyki i warunki zaliczenia jej kosztu na poczet naprawy."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
+          "target": "/diagnostics/",
+          "linkKind": "heading",
+          "actual": "/diagnostics/",
+          "serviceBody": true
         },
         {
-          "texts": [
-            "Wymiana oleju",
-            "150 zł",
-            "Cena robocizny. O koszt oleju i filtrów zapytaj osobno."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
+          "target": "/diagnostics/",
+          "linkKind": "detail",
+          "actual": "/diagnostics/",
+          "serviceBody": true
         },
         {
-          "texts": [
-            "Roboczogodzina",
-            "250 zł",
-            "Zapytaj, do jakich prac odnosi się stawka i jak obliczany jest czas pracy."
-          ],
-          "fontSizes": [
-            "18px",
-            "24px",
-            "13px"
-          ]
+          "target": "/oil-change/",
+          "linkKind": "heading",
+          "actual": "/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/oil-change/",
+          "linkKind": "detail",
+          "actual": "/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/suspension/",
+          "linkKind": "heading",
+          "actual": "/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/suspension/",
+          "linkKind": "detail",
+          "actual": "/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/brakes/",
+          "linkKind": "heading",
+          "actual": "/brakes/",
+          "serviceBody": true
+        },
+        {
+          "target": "/brakes/",
+          "linkKind": "detail",
+          "actual": "/brakes/",
+          "serviceBody": true
         }
-      ]
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "screenshot": "/workspace/avenor-geo-agent/site/qa/production-desktop.png",
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
     },
-    "contact": {
-      "text": "ADRES\nChełmżyńska 5, 04-247 Warszawa",
-      "href": "https://www.google.com/maps/search/?api=1&query=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-      "target": "_blank",
-      "rel": "noopener noreferrer"
+    {
+      "path": "/ua/",
+      "language": "ua",
+      "intent": "homepage",
+      "width": 320,
+      "status": 200,
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [
+        {
+          "src": "/assets/car-blueprint.svg",
+          "complete": true,
+          "naturalWidth": 920
+        }
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "expected": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/",
+        "actual": "/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "homepageServiceLinks": [
+        {
+          "target": "/ua/diagnostics/",
+          "linkKind": "heading",
+          "actual": "/ua/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/diagnostics/",
+          "linkKind": "detail",
+          "actual": "/ua/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/oil-change/",
+          "linkKind": "heading",
+          "actual": "/ua/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/oil-change/",
+          "linkKind": "detail",
+          "actual": "/ua/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/suspension/",
+          "linkKind": "heading",
+          "actual": "/ua/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/suspension/",
+          "linkKind": "detail",
+          "actual": "/ua/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/brakes/",
+          "linkKind": "heading",
+          "actual": "/ua/brakes/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/brakes/",
+          "linkKind": "detail",
+          "actual": "/ua/brakes/",
+          "serviceBody": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
     },
-    "hours": "GODZINY OTWARCIA\nPoniedziałek–piątek\n09:00–19:00\nSobota\n09:00–12:00",
-    "route": "https://www.google.com/maps/dir/?api=1&destination=Che%C5%82m%C5%BCy%C5%84ska+5%2C+04-247+Warszawa",
-    "images": [
-      {
-        "src": "/assets/car-blueprint.svg",
-        "complete": true,
-        "naturalWidth": 920
-      }
-    ],
-    "errors": [],
-    "failedRequests": []
-  }
-]
+    {
+      "path": "/ua/",
+      "language": "ua",
+      "intent": "homepage",
+      "width": 390,
+      "status": 200,
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [
+        {
+          "src": "/assets/car-blueprint.svg",
+          "complete": true,
+          "naturalWidth": 920
+        }
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "expected": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/",
+        "actual": "/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "homepageServiceLinks": [
+        {
+          "target": "/ua/diagnostics/",
+          "linkKind": "heading",
+          "actual": "/ua/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/diagnostics/",
+          "linkKind": "detail",
+          "actual": "/ua/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/oil-change/",
+          "linkKind": "heading",
+          "actual": "/ua/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/oil-change/",
+          "linkKind": "detail",
+          "actual": "/ua/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/suspension/",
+          "linkKind": "heading",
+          "actual": "/ua/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/suspension/",
+          "linkKind": "detail",
+          "actual": "/ua/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/brakes/",
+          "linkKind": "heading",
+          "actual": "/ua/brakes/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/brakes/",
+          "linkKind": "detail",
+          "actual": "/ua/brakes/",
+          "serviceBody": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/",
+      "language": "ua",
+      "intent": "homepage",
+      "width": 768,
+      "status": 200,
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [
+        {
+          "src": "/assets/car-blueprint.svg",
+          "complete": true,
+          "naturalWidth": 920
+        }
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "expected": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/",
+        "actual": "/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "homepageServiceLinks": [
+        {
+          "target": "/ua/diagnostics/",
+          "linkKind": "heading",
+          "actual": "/ua/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/diagnostics/",
+          "linkKind": "detail",
+          "actual": "/ua/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/oil-change/",
+          "linkKind": "heading",
+          "actual": "/ua/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/oil-change/",
+          "linkKind": "detail",
+          "actual": "/ua/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/suspension/",
+          "linkKind": "heading",
+          "actual": "/ua/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/suspension/",
+          "linkKind": "detail",
+          "actual": "/ua/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/brakes/",
+          "linkKind": "heading",
+          "actual": "/ua/brakes/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/brakes/",
+          "linkKind": "detail",
+          "actual": "/ua/brakes/",
+          "serviceBody": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/",
+      "language": "ua",
+      "intent": "homepage",
+      "width": 1440,
+      "status": 200,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "textOverflow": []
+      },
+      "images": [
+        {
+          "src": "/assets/car-blueprint.svg",
+          "complete": true,
+          "naturalWidth": 920
+        }
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "expected": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/",
+        "actual": "/",
+        "passed": true
+      },
+      "desktopNavigationVisible": true,
+      "homepageServiceLinks": [
+        {
+          "target": "/ua/diagnostics/",
+          "linkKind": "heading",
+          "actual": "/ua/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/diagnostics/",
+          "linkKind": "detail",
+          "actual": "/ua/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/oil-change/",
+          "linkKind": "heading",
+          "actual": "/ua/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/oil-change/",
+          "linkKind": "detail",
+          "actual": "/ua/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/suspension/",
+          "linkKind": "heading",
+          "actual": "/ua/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/suspension/",
+          "linkKind": "detail",
+          "actual": "/ua/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/brakes/",
+          "linkKind": "heading",
+          "actual": "/ua/brakes/",
+          "serviceBody": true
+        },
+        {
+          "target": "/ua/brakes/",
+          "linkKind": "detail",
+          "actual": "/ua/brakes/",
+          "serviceBody": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/",
+      "language": "pl",
+      "intent": "homepage",
+      "width": 320,
+      "status": 200,
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [
+        {
+          "src": "/assets/car-blueprint.svg",
+          "complete": true,
+          "naturalWidth": 920
+        }
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "expected": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/",
+        "actual": "/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "#services",
+        "path": "/pl/",
+        "fragment": "services",
+        "closed": true
+      },
+      "homepageServiceLinks": [
+        {
+          "target": "/pl/diagnostics/",
+          "linkKind": "heading",
+          "actual": "/pl/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/diagnostics/",
+          "linkKind": "detail",
+          "actual": "/pl/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/oil-change/",
+          "linkKind": "heading",
+          "actual": "/pl/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/oil-change/",
+          "linkKind": "detail",
+          "actual": "/pl/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/suspension/",
+          "linkKind": "heading",
+          "actual": "/pl/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/suspension/",
+          "linkKind": "detail",
+          "actual": "/pl/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/brakes/",
+          "linkKind": "heading",
+          "actual": "/pl/brakes/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/brakes/",
+          "linkKind": "detail",
+          "actual": "/pl/brakes/",
+          "serviceBody": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/",
+      "language": "pl",
+      "intent": "homepage",
+      "width": 390,
+      "status": 200,
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [
+        {
+          "src": "/assets/car-blueprint.svg",
+          "complete": true,
+          "naturalWidth": 920
+        }
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "expected": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/",
+        "actual": "/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "#services",
+        "path": "/pl/",
+        "fragment": "services",
+        "closed": true
+      },
+      "homepageServiceLinks": [
+        {
+          "target": "/pl/diagnostics/",
+          "linkKind": "heading",
+          "actual": "/pl/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/diagnostics/",
+          "linkKind": "detail",
+          "actual": "/pl/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/oil-change/",
+          "linkKind": "heading",
+          "actual": "/pl/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/oil-change/",
+          "linkKind": "detail",
+          "actual": "/pl/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/suspension/",
+          "linkKind": "heading",
+          "actual": "/pl/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/suspension/",
+          "linkKind": "detail",
+          "actual": "/pl/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/brakes/",
+          "linkKind": "heading",
+          "actual": "/pl/brakes/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/brakes/",
+          "linkKind": "detail",
+          "actual": "/pl/brakes/",
+          "serviceBody": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/",
+      "language": "pl",
+      "intent": "homepage",
+      "width": 768,
+      "status": 200,
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [
+        {
+          "src": "/assets/car-blueprint.svg",
+          "complete": true,
+          "naturalWidth": 920
+        }
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "expected": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/",
+        "actual": "/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "#services",
+        "path": "/pl/",
+        "fragment": "services",
+        "closed": true
+      },
+      "homepageServiceLinks": [
+        {
+          "target": "/pl/diagnostics/",
+          "linkKind": "heading",
+          "actual": "/pl/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/diagnostics/",
+          "linkKind": "detail",
+          "actual": "/pl/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/oil-change/",
+          "linkKind": "heading",
+          "actual": "/pl/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/oil-change/",
+          "linkKind": "detail",
+          "actual": "/pl/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/suspension/",
+          "linkKind": "heading",
+          "actual": "/pl/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/suspension/",
+          "linkKind": "detail",
+          "actual": "/pl/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/brakes/",
+          "linkKind": "heading",
+          "actual": "/pl/brakes/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/brakes/",
+          "linkKind": "detail",
+          "actual": "/pl/brakes/",
+          "serviceBody": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/",
+      "language": "pl",
+      "intent": "homepage",
+      "width": 1440,
+      "status": 200,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "textOverflow": []
+      },
+      "images": [
+        {
+          "src": "/assets/car-blueprint.svg",
+          "complete": true,
+          "naturalWidth": 920
+        }
+      ],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "expected": [
+          "/",
+          "/ua/",
+          "/pl/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/",
+        "actual": "/",
+        "passed": true
+      },
+      "desktopNavigationVisible": true,
+      "homepageServiceLinks": [
+        {
+          "target": "/pl/diagnostics/",
+          "linkKind": "heading",
+          "actual": "/pl/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/diagnostics/",
+          "linkKind": "detail",
+          "actual": "/pl/diagnostics/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/oil-change/",
+          "linkKind": "heading",
+          "actual": "/pl/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/oil-change/",
+          "linkKind": "detail",
+          "actual": "/pl/oil-change/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/suspension/",
+          "linkKind": "heading",
+          "actual": "/pl/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/suspension/",
+          "linkKind": "detail",
+          "actual": "/pl/suspension/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/brakes/",
+          "linkKind": "heading",
+          "actual": "/pl/brakes/",
+          "serviceBody": true
+        },
+        {
+          "target": "/pl/brakes/",
+          "linkKind": "detail",
+          "actual": "/pl/brakes/",
+          "serviceBody": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/diagnostics/",
+      "language": "ru",
+      "intent": "diagnostics",
+      "width": 320,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:34:52.835466+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "expected": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/diagnostics/",
+        "actual": "/ua/diagnostics/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/diagnostics/",
+      "language": "ru",
+      "intent": "diagnostics",
+      "width": 390,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:34:52.804270+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "expected": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/diagnostics/",
+        "actual": "/ua/diagnostics/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "screenshot": "/workspace/avenor-geo-agent/site/qa/service-diagnostics-mobile.png",
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/diagnostics/",
+      "language": "ru",
+      "intent": "diagnostics",
+      "width": 768,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:34:52.800989+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "expected": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/diagnostics/",
+        "actual": "/ua/diagnostics/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 79,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/diagnostics/",
+      "language": "ru",
+      "intent": "diagnostics",
+      "width": 1440,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:34:52.833449+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "expected": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/diagnostics/",
+        "actual": "/ua/diagnostics/",
+        "passed": true
+      },
+      "desktopNavigationVisible": true,
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "screenshot": "/workspace/avenor-geo-agent/site/qa/service-diagnostics-desktop.png",
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/diagnostics/",
+      "language": "ua",
+      "intent": "diagnostics",
+      "width": 320,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:34:56.348833+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "expected": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/diagnostics/",
+        "actual": "/diagnostics/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/ua/#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/diagnostics/",
+      "language": "ua",
+      "intent": "diagnostics",
+      "width": 390,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:34:57.230364+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "expected": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/diagnostics/",
+        "actual": "/diagnostics/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/ua/#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/diagnostics/",
+      "language": "ua",
+      "intent": "diagnostics",
+      "width": 768,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:34:57.684994+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "expected": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/diagnostics/",
+        "actual": "/diagnostics/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/ua/#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 79,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/diagnostics/",
+      "language": "ua",
+      "intent": "diagnostics",
+      "width": 1440,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:34:58.039682+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "expected": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/diagnostics/",
+        "actual": "/diagnostics/",
+        "passed": true
+      },
+      "desktopNavigationVisible": true,
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/diagnostics/",
+      "language": "pl",
+      "intent": "diagnostics",
+      "width": 320,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:00.952771+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "expected": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/diagnostics/",
+        "actual": "/diagnostics/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/pl/#services",
+        "path": "/pl/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/diagnostics/",
+      "language": "pl",
+      "intent": "diagnostics",
+      "width": 390,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:01.172881+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "expected": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/diagnostics/",
+        "actual": "/diagnostics/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/pl/#services",
+        "path": "/pl/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/diagnostics/",
+      "language": "pl",
+      "intent": "diagnostics",
+      "width": 768,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:02.207775+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "expected": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/diagnostics/",
+        "actual": "/diagnostics/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/pl/#services",
+        "path": "/pl/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 79,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/diagnostics/",
+      "language": "pl",
+      "intent": "diagnostics",
+      "width": 1440,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:02.579551+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "expected": [
+          "/diagnostics/",
+          "/ua/diagnostics/",
+          "/pl/diagnostics/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/diagnostics/",
+        "actual": "/diagnostics/",
+        "passed": true
+      },
+      "desktopNavigationVisible": true,
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/oil-change/",
+      "language": "ru",
+      "intent": "oil-change",
+      "width": 320,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:05.723679+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "expected": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/oil-change/",
+        "actual": "/ua/oil-change/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/oil-change/",
+      "language": "ru",
+      "intent": "oil-change",
+      "width": 390,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:06.186036+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "expected": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/oil-change/",
+        "actual": "/ua/oil-change/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/oil-change/",
+      "language": "ru",
+      "intent": "oil-change",
+      "width": 768,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:06.155818+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "expected": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/oil-change/",
+        "actual": "/ua/oil-change/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 79,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/oil-change/",
+      "language": "ru",
+      "intent": "oil-change",
+      "width": 1440,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:07.270636+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "expected": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/oil-change/",
+        "actual": "/ua/oil-change/",
+        "passed": true
+      },
+      "desktopNavigationVisible": true,
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/oil-change/",
+      "language": "ua",
+      "intent": "oil-change",
+      "width": 320,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:10.839257+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "expected": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/oil-change/",
+        "actual": "/oil-change/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/ua/#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/oil-change/",
+      "language": "ua",
+      "intent": "oil-change",
+      "width": 390,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:10.822046+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "expected": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/oil-change/",
+        "actual": "/oil-change/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/ua/#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/oil-change/",
+      "language": "ua",
+      "intent": "oil-change",
+      "width": 768,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:11.303758+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "expected": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/oil-change/",
+        "actual": "/oil-change/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/ua/#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 79,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/oil-change/",
+      "language": "ua",
+      "intent": "oil-change",
+      "width": 1440,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:11.476257+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "expected": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/oil-change/",
+        "actual": "/oil-change/",
+        "passed": true
+      },
+      "desktopNavigationVisible": true,
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/oil-change/",
+      "language": "pl",
+      "intent": "oil-change",
+      "width": 320,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:14.769418+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "expected": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/oil-change/",
+        "actual": "/oil-change/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/pl/#services",
+        "path": "/pl/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/oil-change/",
+      "language": "pl",
+      "intent": "oil-change",
+      "width": 390,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:15.513027+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "expected": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/oil-change/",
+        "actual": "/oil-change/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/pl/#services",
+        "path": "/pl/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "screenshot": "/workspace/avenor-geo-agent/site/qa/service-oil-change-pl-mobile.png",
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/oil-change/",
+      "language": "pl",
+      "intent": "oil-change",
+      "width": 768,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:16.548103+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "expected": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/oil-change/",
+        "actual": "/oil-change/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/pl/#services",
+        "path": "/pl/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 79,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/oil-change/",
+      "language": "pl",
+      "intent": "oil-change",
+      "width": 1440,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:16.685484+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "expected": [
+          "/oil-change/",
+          "/ua/oil-change/",
+          "/pl/oil-change/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/oil-change/",
+        "actual": "/oil-change/",
+        "passed": true
+      },
+      "desktopNavigationVisible": true,
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/suspension/",
+      "language": "ru",
+      "intent": "suspension",
+      "width": 320,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:19.948350+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/suspension/",
+        "actual": "/ua/suspension/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/suspension/",
+      "language": "ru",
+      "intent": "suspension",
+      "width": 390,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:20.680509+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/suspension/",
+        "actual": "/ua/suspension/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/suspension/",
+      "language": "ru",
+      "intent": "suspension",
+      "width": 768,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:21.288195+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/suspension/",
+        "actual": "/ua/suspension/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 79,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/suspension/",
+      "language": "ru",
+      "intent": "suspension",
+      "width": 1440,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:21.804737+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/suspension/",
+        "actual": "/ua/suspension/",
+        "passed": true
+      },
+      "desktopNavigationVisible": true,
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/suspension/",
+      "language": "ua",
+      "intent": "suspension",
+      "width": 320,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:24.411209+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/suspension/",
+        "actual": "/suspension/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/ua/#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/suspension/",
+      "language": "ua",
+      "intent": "suspension",
+      "width": 390,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:25.013662+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/suspension/",
+        "actual": "/suspension/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/ua/#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/suspension/",
+      "language": "ua",
+      "intent": "suspension",
+      "width": 768,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:25.524974+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/suspension/",
+        "actual": "/suspension/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/ua/#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 79,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/suspension/",
+      "language": "ua",
+      "intent": "suspension",
+      "width": 1440,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:26.601581+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/suspension/",
+        "actual": "/suspension/",
+        "passed": true
+      },
+      "desktopNavigationVisible": true,
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/suspension/",
+      "language": "pl",
+      "intent": "suspension",
+      "width": 320,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:29.347277+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/suspension/",
+        "actual": "/suspension/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/pl/#services",
+        "path": "/pl/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/suspension/",
+      "language": "pl",
+      "intent": "suspension",
+      "width": 390,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:29.763054+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/suspension/",
+        "actual": "/suspension/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/pl/#services",
+        "path": "/pl/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/suspension/",
+      "language": "pl",
+      "intent": "suspension",
+      "width": 768,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:30.250923+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/suspension/",
+        "actual": "/suspension/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/pl/#services",
+        "path": "/pl/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 79,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/suspension/",
+      "language": "pl",
+      "intent": "suspension",
+      "width": 1440,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:30.942948+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "expected": [
+          "/suspension/",
+          "/ua/suspension/",
+          "/pl/suspension/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/suspension/",
+        "actual": "/suspension/",
+        "passed": true
+      },
+      "desktopNavigationVisible": true,
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/brakes/",
+      "language": "ru",
+      "intent": "brakes",
+      "width": 320,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:33.459578+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "expected": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/brakes/",
+        "actual": "/ua/brakes/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/brakes/",
+      "language": "ru",
+      "intent": "brakes",
+      "width": 390,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:33.786508+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "expected": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/brakes/",
+        "actual": "/ua/brakes/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/brakes/",
+      "language": "ru",
+      "intent": "brakes",
+      "width": 768,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:34.573341+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "expected": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/brakes/",
+        "actual": "/ua/brakes/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/#services",
+        "path": "/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 79,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/brakes/",
+      "language": "ru",
+      "intent": "brakes",
+      "width": 1440,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:35.012090+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "expected": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/ua/brakes/",
+        "actual": "/ua/brakes/",
+        "passed": true
+      },
+      "desktopNavigationVisible": true,
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/brakes/",
+      "language": "ua",
+      "intent": "brakes",
+      "width": 320,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:37.568839+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "expected": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/brakes/",
+        "actual": "/brakes/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/ua/#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/brakes/",
+      "language": "ua",
+      "intent": "brakes",
+      "width": 390,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:38.260177+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "expected": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/brakes/",
+        "actual": "/brakes/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/ua/#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/brakes/",
+      "language": "ua",
+      "intent": "brakes",
+      "width": 768,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:38.880804+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "expected": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/brakes/",
+        "actual": "/brakes/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/ua/#services",
+        "path": "/ua/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 79,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/ua/brakes/",
+      "language": "ua",
+      "intent": "brakes",
+      "width": 1440,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:39.251374+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "expected": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/brakes/",
+        "actual": "/brakes/",
+        "passed": true
+      },
+      "desktopNavigationVisible": true,
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/brakes/",
+      "language": "pl",
+      "intent": "brakes",
+      "width": 320,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:42.710459+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "expected": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/brakes/",
+        "actual": "/brakes/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 320,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/pl/#services",
+        "path": "/pl/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/brakes/",
+      "language": "pl",
+      "intent": "brakes",
+      "width": 390,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:42.886415+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "expected": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/brakes/",
+        "actual": "/brakes/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 390,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/pl/#services",
+        "path": "/pl/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 182,
+          "headerBottom": 75,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 199,
+          "headerBottom": 75,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/brakes/",
+      "language": "pl",
+      "intent": "brakes",
+      "width": 768,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:43.779269+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "bodyWidth": 768,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "expected": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/brakes/",
+        "actual": "/brakes/",
+        "passed": true
+      },
+      "menuOpen": true,
+      "menuOpenScrollWidth": 768,
+      "menuClose": true,
+      "menuEscape": true,
+      "menuEscapeFocus": true,
+      "menuLink": {
+        "href": "/pl/#services",
+        "path": "/pl/",
+        "fragment": "services",
+        "closed": true
+      },
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 202,
+          "headerBottom": 79,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 79,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    },
+    {
+      "path": "/pl/brakes/",
+      "language": "pl",
+      "intent": "brakes",
+      "width": 1440,
+      "status": 200,
+      "captured_at_utc": "2026-10-08T08:35:44.456209+00:00",
+      "stylesheet_sha256": "ae6b538e83c2829d7810469df53fc0b5c3374cbf801f1219348075524a84dd49",
+      "heroLinkContrast": {
+        "foreground": "rgb(28, 30, 27)",
+        "background": "rgb(247, 247, 241)",
+        "ratio": 15.61,
+        "passesNormalTextAA": true
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "textOverflow": []
+      },
+      "images": [],
+      "badLocalTargets": [],
+      "languageIntentPaths": {
+        "actual": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "expected": [
+          "/brakes/",
+          "/ua/brakes/",
+          "/pl/brakes/"
+        ],
+        "passed": true
+      },
+      "languageClick": {
+        "target": "/brakes/",
+        "actual": "/brakes/",
+        "passed": true
+      },
+      "desktopNavigationVisible": true,
+      "tocAnchors": [
+        {
+          "target": "#symptoms",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#assessment",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#price",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#before-visit",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#warranty",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#service-faq",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        },
+        {
+          "target": "#booking",
+          "top": 219,
+          "headerBottom": 95,
+          "passed": true
+        }
+      ],
+      "faq": [
+        {
+          "index": 0,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 1,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 2,
+          "open": true,
+          "close": true
+        },
+        {
+          "index": 3,
+          "open": true,
+          "close": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "resourceErrors": []
+    }
+  ]
+}
