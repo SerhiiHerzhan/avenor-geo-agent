@@ -1,0 +1,219 @@
+{
+  "checked_at_utc": "2026-10-08T12:13:57.758467+00:00",
+  "checked_at_kyiv": "2026-10-08T15:13:57.770266+03:00",
+  "canonical_pages": 15,
+  "pages": [
+    {
+      "url": "https://stowarszawa.com/",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "https://stowarszawa.com/ua/",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/ua/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/ua/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "https://stowarszawa.com/pl/",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/pl/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/pl/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "https://stowarszawa.com/diagnostics/",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/diagnostics/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/diagnostics/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "https://stowarszawa.com/ua/diagnostics/",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/ua/diagnostics/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/ua/diagnostics/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "https://stowarszawa.com/pl/diagnostics/",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/pl/diagnostics/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/pl/diagnostics/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "https://stowarszawa.com/oil-change/",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/oil-change/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/oil-change/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "https://stowarszawa.com/ua/oil-change/",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/ua/oil-change/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/ua/oil-change/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "https://stowarszawa.com/pl/oil-change/",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/pl/oil-change/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/pl/oil-change/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "https://stowarszawa.com/suspension/",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/suspension/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/suspension/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "https://stowarszawa.com/ua/suspension/",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/ua/suspension/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/ua/suspension/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "https://stowarszawa.com/pl/suspension/",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/pl/suspension/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/pl/suspension/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "https://stowarszawa.com/brakes/",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/brakes/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/brakes/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "https://stowarszawa.com/ua/brakes/",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/ua/brakes/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/ua/brakes/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "https://stowarszawa.com/pl/brakes/",
+      "status": 200,
+      "final_url": "https://stowarszawa.com/pl/brakes/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/pl/brakes/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "http://stowarszawa.com/",
+      "status": 200,
+      "final_url": "http://stowarszawa.com/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "http://www.stowarszawa.com/",
+      "status": 200,
+      "final_url": "http://www.stowarszawa.com/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/"
+      ],
+      "local_payload_matches": true
+    },
+    {
+      "url": "https://www.stowarszawa.com/",
+      "status": 200,
+      "final_url": "https://www.stowarszawa.com/",
+      "robots": "index,follow",
+      "x_robots_tag": null,
+      "canonical": [
+        "https://stowarszawa.com/"
+      ],
+      "local_payload_matches": true
+    }
+  ],
+  "googlebot_robots_allowed": true,
+  "googlebot_user_agent_request_status": 200,
+  "google_actual_ip_verified": false,
+  "search_console_access": false,
+  "robots": {
+    "url": "https://stowarszawa.com/robots.txt",
+    "status": 200,
+    "captured_at_utc": "2026-10-08T12:05:20.707775+00:00"
+  },
+  "sitemap": {
+    "url": "https://stowarszawa.com/sitemap.xml",
+    "status": 200,
+    "captured_at_utc": "2026-10-08T12:05:21.307749+00:00"
+  }
+}
